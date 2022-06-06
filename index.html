@@ -30,49 +30,6 @@
 
     <!-- Bootstrap + Ollie main styles -->
     <link rel="stylesheet" href="assets/css/ollie.css" />
-
-    <style>
-      .subnav {
-        float: left;
-        overflow: hidden;
-      }
-      .subnav .subnavbtn {
-        font-size: 16px;
-        border: none;
-        outline: none;
-        color: inherit;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-      }
-      .navbar a:hover,
-      .subnav:hover .subnavbtn {
-        background-color: red;
-      }
-      .subnav-content {
-        display: none;
-        position: absolute;
-        left: 0;
-        background-color: red;
-        width: 100%;
-        z-index: 1;
-      }
-      .subnav-content a {
-        float: left;
-        color: white;
-        text-decoration: none;
-      }
-
-      .subnav-content a:hover {
-        background-color: #eee;
-        color: black;
-      }
-
-      .subnav:hover .subnav-content {
-        display: block;
-      }
-    </style>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <nav
@@ -108,15 +65,22 @@
               >
             </li>
             <li class="nav-item">
-              <div class="subnav">
-                <button class="subnavbt">
-                  Projects <i class="fa fa-caret-down"></i>
+              <div class="dropdown d-inline-block">
+                <button
+                  class="btn btn-outline-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Projects
                 </button>
-                <div class="subnav-content">
-                  <a href="#balloons">Catamount Balloons</a>
-                  <a href="#muon-detector">Muon Detector</a>
-                  <a href="#CanSat">Twiggs Space Lab CanSat</a>
-                  <a href="#QB2">Twiggs Space Lab QB2</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Catamount Balloons</a>
+                  <a class="dropdown-item" href="#">Muon Detector</a>
+                  <a class="dropdown-item" href="#">CanSat</a>
+                  <a class="dropdown-item" href="#">QB2</a>
                 </div>
               </div>
               <!-- <a class="nav-link" href="#projects">Projects</a> -->
