@@ -3074,6 +3074,12 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(240, 97, 97, 0.5);
 }
 
+.btn-navbar-outline-secondary {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
 .btn-outline-secondary {
   color: #6c757d;
   border-color: #6c757d;
