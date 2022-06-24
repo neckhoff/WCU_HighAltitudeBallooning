@@ -4701,10 +4701,6 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
-.dropdown.d-inline-block:hover .dropdown-menu {
-  display: block;
-}
-
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
