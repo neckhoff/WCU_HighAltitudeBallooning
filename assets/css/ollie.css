@@ -11408,7 +11408,7 @@ p {
   background: transparent !important;
 }
 
-.navbar.affix-top .nav-link {
+.navbar.affix-top .nav-link .btn-navbar {
   color: #fff;
 }
 
