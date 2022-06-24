@@ -3435,26 +3435,6 @@ input[type="button"].btn-block {
   margin-left: 0;
 }
 
-.subnav-content {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 10rem;
-  padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
-  font-size: 1rem;
-  color: #212529;
-  text-align: left;
-  list-style: none;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
-}
-
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -11408,7 +11388,7 @@ p {
   background: transparent !important;
 }
 
-.navbar.affix-top .nav-link .btn-navbar {
+.navbar.affix-top .nav-link {
   color: #fff;
 }
 
