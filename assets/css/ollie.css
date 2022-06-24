@@ -11596,7 +11596,7 @@ pre .code {
           flex-direction: column;
 }
 
-.header.about {
+.header-about {
   position: relative;
   /*height: 100vh;*/
   max-height: 100px;
@@ -11624,7 +11624,7 @@ pre .code {
   opacity: 0.9;
 }
 
-.header .overlay.about {
+.header-about .overlay-about {
   position: absolute;
   top: 0;
   left: 0;
