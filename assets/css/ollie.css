@@ -2724,7 +2724,7 @@ textarea.form-control {
   }
 }
 
-.btn-subnav {
+.btn-navbar {
   display: inline-block;
   font-weight: bold;
   color: #212529;
@@ -3094,7 +3094,7 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(240, 97, 97, 0.5);
 }
 
-.btn-subnav-outline-secondary {
+.btn-navbar-outline-secondary {
   color: #fff;
   background-color: transparent;
   border-color: transparent;
