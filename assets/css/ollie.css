@@ -587,7 +587,7 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 100px;
   border-bottom: 2px solid black;
 }
 
@@ -11814,7 +11814,10 @@ pre .code {
 
 .section#Catamount1, .section#Catamount2, .section#Catamount3, .section#Catamount4, .section#Catamount5, .section#Catamount6, .section#Catamount7, .section#Catamount8, 
 .section#Catamount9, .section#Catamount10, .section#Catamount11, .section#Catamount12 {
-  padding: 200px 10px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
   margin-left: 50px;
   margin-right: 50px;
     /* background-color: #ccf5ff;*/
