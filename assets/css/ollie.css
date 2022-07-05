@@ -11130,6 +11130,14 @@ p {
   letter-spacing: .6px;
 }
 
+p#HABalloons {
+  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  opacity: .9;
+  color: #111;
+  letter-spacing: .6px;
+  width: 800px;
+}
+
 .xs-font {
   font-size: 13px;
   opacity: .5;
