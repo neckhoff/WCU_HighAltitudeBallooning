@@ -72,6 +72,17 @@ body {
   background-color: #fff;
 }
 
+body#HABalloons {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #ccf5ff;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -560,6 +571,15 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.container#HABalloons {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 2px solid black;
 }
 
 .container#HABalloons {
@@ -11795,6 +11815,8 @@ pre .code {
 .section#Catamount1, .section#Catamount2, .section#Catamount3, .section#Catamount4, .section#Catamount5, .section#Catamount6, .section#Catamount7, .section#Catamount8, 
 .section#Catamount9, .section#Catamount10, .section#Catamount11, .section#Catamount12 {
   padding: 200px 10px;
+  margin-left: 50px;
+  margin-right: 50px;
     /* background-color: #ccf5ff;*/
     background-color: #e6faff;
     border-bottom: 1px dashed black;
