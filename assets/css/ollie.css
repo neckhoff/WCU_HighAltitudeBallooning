@@ -582,6 +582,33 @@ pre code {
   border-bottom: 2px solid black;
 }
 
+.container#MuonDetector {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 100px;
+  border-bottom: 2px solid black;
+}
+
+.container#CanSat {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 100px;
+  border-bottom: 2px solid black;
+}
+
+.container#QB2 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 100px;
+  border-bottom: 2px solid black;
+}
+
 .container#Catamount1, .container#Catamount2, .container#Catamount3, .container#Catamount4, .container#Catamount5, .container#Catamount6, .container#Catamount7, .container#Catamount8, 
 .container#Catamount9, .container#Catamount10, .container#Catamount11, .container#Catamount12 {
   width: 100%;
@@ -11138,6 +11165,30 @@ p#HABalloons {
   width: 800px;
 }
 
+p#MuonDetector {
+  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  opacity: .9;
+  color: #111;
+  letter-spacing: .6px;
+  width: 800px;
+}
+
+p#CanSat {
+  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  opacity: .9;
+  color: #111;
+  letter-spacing: .6px;
+  width: 800px;
+}
+
+p#QB2 {
+  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  opacity: .9;
+  color: #111;
+  letter-spacing: .6px;
+  width: 800px;
+}
+
 .xs-font {
   font-size: 13px;
   opacity: .5;
@@ -11669,6 +11720,60 @@ pre .code {
           flex-direction: column;
 }
 
+.header-MuonDetector {
+  position: relative;
+  height: 10vh;
+  max-height: 100px;
+  /* background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  background-position: center;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-CanSat {
+  position: relative;
+  height: 10vh;
+  max-height: 100px;
+  /* background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  background-position: center;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-QB2 {
+  position: relative;
+  height: 10vh;
+  max-height: 100px;
+  /* background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  background-position: center;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .header .overlay {
   position: absolute;
   top: 0;
@@ -11690,6 +11795,36 @@ pre .code {
 }
 
 .header-HABalloons .overlay-HABalloons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2C3E50;
+  opacity: 0.9;
+}
+
+.header-MuonDetector .overlay-MuonDetector {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2C3E50;
+  opacity: 0.9;
+}
+
+.header-CanSat .overlay-CanSat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2C3E50;
+  opacity: 0.9;
+}
+
+.header-QB2 .overlay-QB2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -11811,6 +11946,36 @@ pre .code {
 }
 
 .section#HABalloons {
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  background-color: #ccf5ff;
+  /*border-bottom: 3px solid black;*/
+
+}
+
+.section#MuonDetector {
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  background-color: #ccf5ff;
+  /*border-bottom: 3px solid black;*/
+
+}
+
+.section#CanSat {
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  background-color: #ccf5ff;
+  /*border-bottom: 3px solid black;*/
+
+}
+
+.section#QB2 {
   padding-top: 50px;
   padding-right: 10px;
   padding-bottom: 20px;
