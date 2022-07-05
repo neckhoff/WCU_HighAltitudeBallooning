@@ -11788,6 +11788,7 @@ pre .code {
   padding: 200px 10px;
     /* background-color: #ccf5ff;*/
     background-color: #e6faff;
+    border-bottom: 1px dashed black;
 }
 
 .section#contact {
