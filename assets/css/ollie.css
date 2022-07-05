@@ -11780,6 +11780,8 @@ pre .code {
 .section#Catamount1, .section#Catamount2, .section#Catamount3, .section#Catamount4, .section#Catamount5, .section#Catamount6, .section#Catamount7, .section#Catamount8, 
 .section#Catamount9, .section#Catamount10, .section#Catamount11, .section#Catamount12 {
   padding: 200px 10px;
+    /* background-color: #ccf5ff;*/
+    background-color: #e6faff;
 }
 
 .section#contact {
