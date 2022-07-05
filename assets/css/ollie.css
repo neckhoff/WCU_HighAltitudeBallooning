@@ -573,6 +573,14 @@ pre code {
   margin-left: auto;
 }
 
+.container#About {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 100px;
+}
+
 .container#HABalloons {
   width: 100%;
   padding-right: 15px;
@@ -11157,6 +11165,14 @@ p {
   letter-spacing: .6px;
 }
 
+p#About {
+  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  opacity: .9;
+  color: #111;
+  letter-spacing: .6px;
+  width: 800px;
+}
+
 p#HABalloons {
   font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
   opacity: .9;
@@ -11941,8 +11957,11 @@ pre .code {
   padding: 200px 10px;
 }
 
-.section#about {
-  padding: 200px 10px;
+.section#About {
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 .section#HABalloons {
