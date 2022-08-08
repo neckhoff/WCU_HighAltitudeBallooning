@@ -5168,6 +5168,7 @@ input[type="button"].btn-block {
 .card#About {
   width: 350px;
   height: 120px;
+  margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -5178,12 +5179,12 @@ input[type="button"].btn-block {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.spacer#About {
+.spacer#AboutHorizontal {
   height: 120px;
   padding: auto;
 }
 
-.spacer#AboutProfessor {
+.spacer#AboutVertical {
   height: 20px;
 }
 
