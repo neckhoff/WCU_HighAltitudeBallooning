@@ -5192,6 +5192,7 @@ input[type="button"].btn-block {
 
 .spacer#AboutHorizontal {
   width: 350px;
+  height: 120px;
   padding: auto;
 }
 
