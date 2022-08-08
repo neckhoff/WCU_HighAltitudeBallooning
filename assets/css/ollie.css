@@ -5173,6 +5173,10 @@ input[type="button"].btn-block {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.spacer#About {
+  height: 20px;
+}
+
 .card {
   position: relative;
   display: -webkit-box;
