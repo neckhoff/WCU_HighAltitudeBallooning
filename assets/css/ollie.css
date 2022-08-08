@@ -5166,15 +5166,15 @@ input[type="button"].btn-block {
 }
 
 .team_member {
-  height: 460px;
+  height: 265px;
   margin-bottom: 30px;
   cursor: pointer;
   position: relative;
 }
 
 .team_member-image {
-  height: 330px;
-  background-size: cover;
+  height: 265px;
+  background-size: 175px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -5194,8 +5194,8 @@ input[type="button"].btn-block {
 }
 
 .card#AboutProfessor {
-  width: 350px;
-  height: 120px;
+  width: 200px;
+  height: 395px;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
