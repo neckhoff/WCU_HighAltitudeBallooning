@@ -5165,6 +5165,20 @@ input[type="button"].btn-block {
   }
 }
 
+.team_member {
+  height: 460px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.team_member-image {
+  height: 330px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .card#About {
   width: 350px;
   height: 120px;
