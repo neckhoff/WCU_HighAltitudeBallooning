@@ -5191,7 +5191,7 @@ input[type="button"].btn-block {
 }
 
 .spacer#AboutHorizontal {
-  height: 120px;
+  width: 350px;
   padding: auto;
 }
 
