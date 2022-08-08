@@ -5165,7 +5165,12 @@ input[type="button"].btn-block {
   }
 }
 
-/* Add some shadows to create a card effect */
+.card#About {
+  width: 350px;
+  height: 120px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 .card#AboutProfessor {
   width: 350px;
   height: 120px;
@@ -5174,6 +5179,11 @@ input[type="button"].btn-block {
 }
 
 .spacer#About {
+  height: 120px;
+  padding: auto;
+}
+
+.spacer#AboutProfessor {
   height: 20px;
 }
 
