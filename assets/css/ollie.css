@@ -5151,7 +5151,7 @@ input[type="button"].btn-block {
 
 /* Three columns side by side */
 .column {
-  float: left;
+  float: none;
   width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px;
