@@ -5153,6 +5153,7 @@ input[type="button"].btn-block {
 .column {
   float: none;
   width: 33.3%;
+  margin: auto;
   margin-bottom: 16px;
   padding: 0 8px;
 }
