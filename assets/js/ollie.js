@@ -68,12 +68,12 @@ $('#owl-testmonial').owlCarousel({
 // Get Modal Element
 var modal = document.getElementById('simpleModal');
 // Get Open Modal Element
-var modalBtn = document.getElementById('researcher-modal-trigger');
+var modalImg = document.getElementById('researcher-modal-trigger');
 // Get Close Button
 var closeBtn = document.getElementsByClassName('closeBtn')[0];
 
 // Listen for open click
-modalBtn.addEventListener('click', openModal);
+modalImg.addEventListener('click', openModal);
 
 // Listen for close click
 closeBtn.addEventListener('click', closeModal);

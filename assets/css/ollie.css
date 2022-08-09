@@ -5181,6 +5181,7 @@ input[type="button"].btn-block {
   height: 265px;
   margin-bottom: 30px;
   position: relative;
+  cursor: pointer;
 }
 
 .team_member-image {
