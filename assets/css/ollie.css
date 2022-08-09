@@ -589,6 +589,14 @@ pre code {
   margin-left: 366.5px;
 }
 
+.container#modal {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 366.5px;
+  margin-left: 366.5px;
+}
+
 /* Clear floats */
 .container::after, .row::after {
   content: "";
