@@ -689,8 +689,9 @@ pre code {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: auto;
+  /*margin-right: -15px;
+  margin-left: -15px;*/
 }
 
 .no-gutters {
@@ -5158,11 +5159,14 @@ input[type="button"].btn-block {
 }
 
 /* Three columns side by side */
+
 .column {
-  float: none;
+  float: left;
   width: 33.3%;
+  min-width: 800px;
+  max-height: 450px;
   margin-bottom: 16px;
-  padding: 0 8px;
+  padding: 0 0;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -5193,16 +5197,30 @@ input[type="button"].btn-block {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card#AboutStudent {
-  width: 200px;
-  height: 395px;
+.card#AboutStudentLeft {
+  width: 250px;
+  height: 430px;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card#AboutStudentMid {
+  width: 250px;
+  height: 430px;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.card#AboutStudentRight {
+  width: 250px;
+  height: 430px;
+  margin-left: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 .card#AboutProfessor {
-  width: 200px;
-  height: 395px;
+  width: 250px;
+  height: 410px;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
