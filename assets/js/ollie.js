@@ -62,3 +62,38 @@ $('#owl-testmonial').owlCarousel({
     nav: true,
     dots: false
 })
+
+// About Modals
+
+// Get Modal Element
+var modal = document.getElementById('simpleModal');
+// Get Open Modal Element
+var modalBtn = document.getElementById('researcher-modal-trigger');
+// Get Close Button
+var closeBtn = document.getElementsByClassName('closeBtn')[0];
+
+// Listen for open click
+modalBtn.addEventListener('click', openModal);
+
+// Listen for close click
+closeBtn.addEventListener('click', closeModal);
+
+// Listen for outside click
+window.addEventListener('click', clickOutside);
+
+// Function to open Modal
+function openModal() {
+    modal.style.display = 'block';
+}
+
+// Function to close Modal
+function closeModal() {
+    modal.style.display = 'none';
+}
+
+// Function to close Modal on outside
+function clickOutside(e) {
+    if(e.target == modal){
+    modal.style.display = 'none';
+    }
+}
