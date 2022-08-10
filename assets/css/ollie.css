@@ -6518,8 +6518,16 @@ a.close.disabled {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   margin: auto;
+  width: auto;
+  height: 100%;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+@media (min-width: 1500px) {
+.blockImg {
+  width: 50%;
+}
 }
 
 .columnModal {
@@ -6546,6 +6554,19 @@ img.imageProfile {
 /* Caption of Modal Image */
 .caption {
   margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  cursor: default;
+}
+
+.caption#modalCaption {
+  margin-left: 214.5px;
+  padding-right: 10px;
   display: block;
   width: 80%;
   max-width: 700px;
