@@ -6575,6 +6575,44 @@ img.imageProfile {
   cursor: default;
 }
 
+.caption#captionTitle {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px 0;
+  cursor: default;
+
+  font-size: 35px;
+  font-weight: 100;
+  /*
+  line-height is spacing between lines
+  text-transform transfers all letters to uppercase or lowercase
+  letter-spacing is spacing between individual letters
+  */
+}
+
+.caption#captionSubtitle {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px 0;
+  cursor: default;
+
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.caption#captionDescription {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px 0;
+  cursor: default;
+
+  font-size: 14px;
+  font-weight: 100;
+}
+
 /* The Close Button */
 .closeBtn#closeModalBtn {
   position: absolute;
