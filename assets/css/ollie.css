@@ -6510,8 +6510,25 @@ a.close.disabled {
 }
 
 .rowModal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: auto;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.columnModal {
+  float: left;
+  width: 33.3%;
+  min-width: 800px;
+  max-height: 450px;
+  margin-bottom: 16px;
+  padding: 0 0;
 }
 
 .modalProfileImg {
