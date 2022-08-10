@@ -593,8 +593,6 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: 366.5px;
-  margin-left: 366.5px;
 }
 
 /* Clear floats */
@@ -6505,8 +6503,20 @@ a.close.disabled {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 900px;
+  height: 100%;
   cursor: default;
+}
+
+.rowModal {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.modalProfileImg {
+  position: fixed;
+  float: left;
+  height: 100px;
 }
 
 /* Caption of Modal Image */
