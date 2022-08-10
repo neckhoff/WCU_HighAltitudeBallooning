@@ -6525,7 +6525,7 @@ a.close.disabled {
 }
 
 @media (min-width: 1500px) {
-.blockImg {
+.modalLayout {
   width: 50%;
 }
 }
