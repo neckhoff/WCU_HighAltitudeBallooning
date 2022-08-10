@@ -6497,14 +6497,16 @@ a.close.disabled {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  cursor: default;
 }
 
 /* Modal Content (image) */
 .modal-content {
   margin: auto;
-  display: none;
+  display: block;
   width: 80%;
   max-width: 700px;
+  cursor: default;
 }
 
 /* Caption of Modal Image */
@@ -6517,6 +6519,7 @@ a.close.disabled {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
+  cursor: default;
 }
 
 /* The Close Button */
