@@ -6543,8 +6543,8 @@ a.close.disabled {
 .modalProfileImg {
   position: fixed;
   float: left;
-  width: 214.5px;
-  height: 300px;
+  width: 429px;
+  height: 600px;
 }
 
 img.imageProfile {
@@ -6552,7 +6552,7 @@ img.imageProfile {
   height: 100%;
 }
 
-/* Caption of Modal Image */
+/* Caption of Modal Image 
 .caption {
   margin: auto;
   display: block;
@@ -6563,18 +6563,15 @@ img.imageProfile {
   padding: 10px 0;
   height: 150px;
   cursor: default;
-}
+}*/
 
 .caption#modalCaption {
-  margin-left: 214.5px;
-  padding-right: 10px;
+  margin-left: 10px;
   display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
+  /*width: 80%;
+  max-width: 700px;*/
   height: 150px;
+  padding: 10px 0;
   cursor: default;
 }
 
