@@ -6523,7 +6523,7 @@ a.close.disabled {
 }
 
 /* The Close Button */
-.closeBtn {
+.closeBtn#closeModalBtn {
   position: absolute;
   top: 80px;
   right: 35px;
@@ -6532,8 +6532,8 @@ a.close.disabled {
   font-weight: bold;
 }
 
-.closeBtn:hover,
-.closeBtn:focus {
+.closeBtn#closeModalBtn:hover,
+.closeBtn#closeModalBtn:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
