@@ -6502,7 +6502,7 @@ a.close.disabled {
 /* Modal Content (image) */
 .modal-content {
   margin: auto;
-  display: block;
+  display: none;
   width: 80%;
   max-width: 700px;
 }
