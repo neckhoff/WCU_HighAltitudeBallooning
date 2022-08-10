@@ -6527,6 +6527,7 @@ a.close.disabled {
 @media (min-width: 1500px) {
 .modalLayout {
   width: 50%;
+  height: 100%;
 }
 }
 
