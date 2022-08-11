@@ -575,6 +575,8 @@ pre code {
   margin-left: auto;
 }
 
+/* Add common css above this point */
+
 .container#About {
   width: 100%;
   padding-right: 15px;
