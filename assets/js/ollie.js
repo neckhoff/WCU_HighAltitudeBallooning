@@ -70,7 +70,7 @@ var modal = document.getElementById('simpleModal');
 // Get Open Modal Element
 var modalImg = document.getElementById('researcher-modal-trigger');
 // Get Close Button
-var closeBtn = document.getElementById('closeModalBtn');
+var closeBtn = document.getElementById('closeModalBtn1');
 
 // Listen for open click
 modalImg.addEventListener('click', openModal);
