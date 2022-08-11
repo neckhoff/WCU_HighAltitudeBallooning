@@ -61,6 +61,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+/*---------------------*/
+
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
@@ -631,6 +633,15 @@ pre code {
 }
 
 .container#QB2 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 100px;
+  border-bottom: 2px solid black;
+}
+
+.container#Capstone2022-23 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -11460,6 +11471,14 @@ p#QB2 {
   width: 800px;
 }
 
+p#Capstone2022-23 {
+  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  opacity: .9;
+  color: #111;
+  letter-spacing: .6px;
+  width: 800px;
+}
+
 .xs-font {
   font-size: 13px;
   opacity: .5;
@@ -12045,6 +12064,24 @@ pre .code {
           flex-direction: column;
 }
 
+.header-Capstone2022-23 {
+  position: relative;
+  height: 10vh;
+  max-height: 100px;
+  /* background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  background-position: center;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .header-Contact {
   position: relative;
   height: 10vh;
@@ -12114,6 +12151,16 @@ pre .code {
 }
 
 .header-QB2 .overlay-QB2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2C3E50;
+  opacity: 0.9;
+}
+
+.header-QB2 .overlay-Capstone2022-23 {
   position: absolute;
   top: 0;
   left: 0;
@@ -12278,6 +12325,16 @@ pre .code {
 }
 
 .section#QB2 {
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-bottom: 500px;
+  padding-left: 10px;
+  background-color: #ccf5ff;
+  /*border-bottom: 3px solid black;*/
+
+}
+
+.section#Capstone2022-23 {
   padding-top: 50px;
   padding-right: 10px;
   padding-bottom: 500px;
