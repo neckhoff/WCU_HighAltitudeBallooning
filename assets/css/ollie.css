@@ -585,29 +585,28 @@ pre code {
   margin-left: 366.5px;
 }
 
-.container#MeetTheTeam {
+.containerAboutCards {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: 366.5px;
-  margin-left: 366.5px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.container#modal {
+.containerModal {
   width: 100%;
   height: 100%;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-/* Clear floats */
 .container::after, .row::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.container#HABalloons {
+.containerTopContent {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -616,44 +615,7 @@ pre code {
   border-bottom: 2px solid black;
 }
 
-.container#MuonDetector {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: 100px;
-  border-bottom: 2px solid black;
-}
-
-.container#CanSat {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: 100px;
-  border-bottom: 2px solid black;
-}
-
-.container#QB2 {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: 100px;
-  border-bottom: 2px solid black;
-}
-
-.container#Capstone2022-23 {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: 100px;
-  border-bottom: 2px solid black;
-}
-
-.container#Catamount1, .container#Catamount2, .container#Catamount3, .container#Catamount4, .container#Catamount5, .container#Catamount6, .container#Catamount7, .container#Catamount8, 
-.container#Catamount9, .container#Catamount10, .container#Catamount11, .container#Catamount12 {
+.containerCataBalloons {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -702,8 +664,6 @@ pre code {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   margin: auto;
-  /*margin-right: -15px;
-  margin-left: -15px;*/
 }
 
 .no-gutters {
@@ -5189,6 +5149,34 @@ input[type="button"].btn-block {
   }
 }
 
+.cardAboutProfessor#Middle {
+  width: 250px;
+  height: 410px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardAboutStudent#Left {
+  width: 250px;
+  height: 430px;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardAboutStudent#Middle {
+  width: 250px;
+  height: 430px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardAboutStudent#Right {
+  width: 250px;
+  height: 430px;
+  margin-left: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 .team_member {
   height: 265px;
   margin-bottom: 30px;
@@ -5203,49 +5191,8 @@ input[type="button"].btn-block {
   background-repeat: no-repeat;
 }
 
-.card#About {
-  width: 350px;
-  height: 120px;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card#AboutStudentLeft {
-  width: 250px;
-  height: 430px;
-  margin-right: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card#AboutStudentMid {
-  width: 250px;
-  height: 430px;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card#AboutStudentRight {
-  width: 250px;
-  height: 430px;
-  margin-left: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card#AboutProfessor {
-  width: 250px;
-  height: 410px;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.spacer#AboutVertical {
+.spacerVertical {
   height: 20px;
-}
-
-.spacer#AboutHorizontal {
-  width: 380px;
-  height: 120px;
-  padding: auto;
 }
 
 .card {
@@ -6496,8 +6443,7 @@ a.close.disabled {
   padding: 0.75rem;
 }
 
-/* The Modal (background) */
-.modal#simpleModal {
+.modalAbout {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -6512,7 +6458,6 @@ a.close.disabled {
   cursor: default;
 }
 
-/* Modal Content (image) */
 .modal-content {
   margin: auto;
   display: block;
@@ -6565,20 +6510,7 @@ img.imageProfile {
   height: 100%;
 }
 
-/* Caption of Modal Image 
 .caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-  cursor: default;
-}*/
-
-.caption#modalCaption {
   margin-left: 10px;
   display: block;
   /*width: 80%;
@@ -6588,7 +6520,17 @@ img.imageProfile {
   cursor: default;
 }
 
-.caption#captionTitle {
+.modalCaption {
+  margin-left: 10px;
+  display: block;
+  /*width: 80%;
+  max-width: 700px;*/
+  height: 150px;
+  padding: 10px 0;
+  cursor: default;
+}
+
+.captionTitle {
   display: block;
   width: 100%;
   height: 65px;
@@ -6605,7 +6547,7 @@ img.imageProfile {
   */
 }
 
-.caption#captionSubtitle {
+.captionSubtitle {
   display: block;
   width: 100%;
   height: 50px;
@@ -6617,7 +6559,7 @@ img.imageProfile {
   color: #ffffff;
 }
 
-.caption#captionDescription {
+.captionDescription {
   display: block;
   width: 100%;
   height: 50px;
@@ -6632,7 +6574,7 @@ p.captionDescription {
 }
 
 /* The Close Button */
-.closeBtn#closeModalBtn1 {
+.closeBtn#closeModalBtn {
   position: absolute;
   top: 80px;
   right: 35px;
@@ -6641,274 +6583,12 @@ p.captionDescription {
   font-weight: bold;
 }
 
-.closeBtn#closeModalBtn1:hover,
-.closeBtn#closeModalBtn1:focus {
+.closeBtn#closeModalBtn:hover,
+.closeBtn#closeModalBtn:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
-/*
-.modal-open {
-  overflow: hidden;
-}
-
-.modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1050;
-  display: none;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  outline: 0;
-}
-
-.modal-dialog {
-  position: relative;
-  width: auto;
-  margin: 0.5rem;
-  pointer-events: none;
-}
-
-.modal.fade .modal-dialog {
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-  transition: -webkit-transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
-  -webkit-transform: translate(0, -50px);
-      -ms-transform: translate(0, -50px);
-          transform: translate(0, -50px);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .modal.fade .modal-dialog {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
-.modal.show .modal-dialog {
-  -webkit-transform: none;
-      -ms-transform: none;
-          transform: none;
-}
-
-.modal-dialog-scrollable {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  max-height: calc(100% - 1rem);
-}
-
-.modal-dialog-scrollable .modal-content {
-  max-height: calc(100vh - 1rem);
-  overflow: hidden;
-}
-
-.modal-dialog-scrollable .modal-header,
-.modal-dialog-scrollable .modal-footer {
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-}
-
-.modal-dialog-scrollable .modal-body {
-  overflow-y: auto;
-}
-
-.modal-dialog-centered {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: calc(100% - 1rem);
-}
-
-.modal-dialog-centered::before {
-  display: block;
-  height: calc(100vh - 1rem);
-  content: "";
-}
-
-.modal-dialog-centered.modal-dialog-scrollable {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100%;
-}
-
-.modal-dialog-centered.modal-dialog-scrollable .modal-content {
-  max-height: none;
-}
-
-.modal-dialog-centered.modal-dialog-scrollable::before {
-  content: none;
-}
-
-.modal-content {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-  pointer-events: auto;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
-  outline: 0;
-}
-
-.modal-backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1040;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000;
-}
-
-.modal-backdrop.fade {
-  opacity: 0;
-}
-
-.modal-backdrop.show {
-  opacity: 0.5;
-}
-
-.modal-header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 1rem 1rem;
-  border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: 0.3rem;
-  border-top-right-radius: 0.3rem;
-}
-
-.modal-header .close {
-  padding: 1rem 1rem;
-  margin: -1rem -1rem -1rem auto;
-}
-
-.modal-title {
-  margin-bottom: 0;
-  line-height: 1.5;
-}
-
-.modal-body {
-  position: relative;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  padding: 1rem;
-}
-
-.modal-footer {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding: 1rem;
-  border-top: 1px solid #dee2e6;
-  border-bottom-right-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
-}
-
-.modal-footer > :not(:first-child) {
-  margin-left: .25rem;
-}
-
-.modal-footer > :not(:last-child) {
-  margin-right: .25rem;
-}
-
-.modal-scrollbar-measure {
-  position: absolute;
-  top: -9999px;
-  width: 50px;
-  height: 50px;
-  overflow: scroll;
-}
-
-@media (min-width: 576px) {
-  .modal-dialog {
-    max-width: 500px;
-    margin: 1.75rem auto;
-  }
-  .modal-dialog-scrollable {
-    max-height: calc(100% - 3.5rem);
-  }
-  .modal-dialog-scrollable .modal-content {
-    max-height: calc(100vh - 3.5rem);
-  }
-  .modal-dialog-centered {
-    min-height: calc(100% - 3.5rem);
-  }
-  .modal-dialog-centered::before {
-    height: calc(100vh - 3.5rem);
-  }
-  .modal-sm {
-    max-width: 300px;
-  }
-}
-
-@media (min-width: 992px) {
-  .modal-lg,
-  .modal-xl {
-    max-width: 800px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .modal-xl {
-    max-width: 1140px;
-  }
-}
-*/
 
 .tooltip {
   position: absolute;
@@ -11433,47 +11113,7 @@ p {
   letter-spacing: .6px;
 }
 
-p#About {
-  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
-  opacity: .9;
-  color: #111;
-  letter-spacing: .6px;
-  width: 800px;
-}
-
-p#HABalloons {
-  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
-  opacity: .9;
-  color: #111;
-  letter-spacing: .6px;
-  width: 800px;
-}
-
-p#MuonDetector {
-  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
-  opacity: .9;
-  color: #111;
-  letter-spacing: .6px;
-  width: 800px;
-}
-
-p#CanSat {
-  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
-  opacity: .9;
-  color: #111;
-  letter-spacing: .6px;
-  width: 800px;
-}
-
-p#QB2 {
-  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
-  opacity: .9;
-  color: #111;
-  letter-spacing: .6px;
-  width: 800px;
-}
-
-p#Capstone2022-23 {
+p.pageDescription {
   font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
   opacity: .9;
   color: #111;
@@ -12296,7 +11936,7 @@ pre .code {
   padding-left: 10px;
 }
 
-.section#HABalloons {
+.sectionTopContent {
   padding-top: 50px;
   padding-right: 10px;
   padding-bottom: 20px;
@@ -12306,48 +11946,7 @@ pre .code {
 
 }
 
-.section#MuonDetector {
-  padding-top: 50px;
-  padding-right: 10px;
-  padding-bottom: 500px;
-  padding-left: 10px;
-  background-color: #ccf5ff;
-  /*border-bottom: 3px solid black;*/
-
-}
-
-.section#CanSat {
-  padding-top: 50px;
-  padding-right: 10px;
-  padding-bottom: 500px;
-  padding-left: 10px;
-  background-color: #ccf5ff;
-  /*border-bottom: 3px solid black;*/
-
-}
-
-.section#QB2 {
-  padding-top: 50px;
-  padding-right: 10px;
-  padding-bottom: 500px;
-  padding-left: 10px;
-  background-color: #ccf5ff;
-  /*border-bottom: 3px solid black;*/
-
-}
-
-.section#Capstone2022-23 {
-  padding-top: 50px;
-  padding-right: 10px;
-  padding-bottom: 500px;
-  padding-left: 10px;
-  background-color: #ccf5ff;
-  /*border-bottom: 3px solid black;*/
-
-}
-
-.section#Catamount1, .section#Catamount2, .section#Catamount3, .section#Catamount4, .section#Catamount5, .section#Catamount6, .section#Catamount7, .section#Catamount8, 
-.section#Catamount9, .section#Catamount10, .section#Catamount11, .section#Catamount12 {
+.sectionCataBalloons {
   padding-top: 50px;
   padding-left: 10px;
   padding-bottom: 20px;
