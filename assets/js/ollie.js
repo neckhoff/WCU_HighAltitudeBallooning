@@ -65,29 +65,29 @@ $('#owl-testmonial').owlCarousel({
 
 // About Modals
 
-// Get Modal Element
+//Get Modal Element
 // var modal = document.getElementById('simpleModal');
-const boxes = document.getElementsByClassName('modal');
+// const boxes = document.getElementsByClassName('modalAbout');
 
-for (const box of boxes) {
-  box.addEventListener('click', function closeModal(event) {
-    console.log('box clicked', event);
-    this.setAttribute('style', 'display: none;');
-    this.style.display = 'none';
-  });
-}
+// for (const box of boxes) {
+//   box.addEventListener('click', function closeModal(event) {
+//     console.log('box clicked', event);
+//     this.setAttribute('style', 'display: none;');
+//     this.style.display = 'none';
+//   });
+// }
 
 
-const triggers = document.getElementsByClassName('team_member');
+// const triggers = document.getElementsByClassName('team_member');
 
-for (const trigger of triggers) {
-    trigger.addEventListener('click', function openModal(event) {
-    console.log('trigger clicked', event);
-    var n = this.querySelector('#simpleModal');
-    n.setAttribute('style', 'display: block;');
-    // modal.style.display = 'none';
-  });
-}
+// for (const trigger of triggers) {
+//     trigger.addEventListener('click', function openModal(event) {
+//     console.log('trigger clicked', event);
+//     var n = this.querySelector('.modalAbout');
+//     n.setAttribute('style', 'display: block;');
+//     modal.style.display = 'none';
+//   });
+// }
 
 // Get Open Modal Element
 // var modalImg = document.getElementById('researcher-modal-trigger');
@@ -101,7 +101,7 @@ for (const trigger of triggers) {
 // closeBtn.addEventListener('click', closeModal);
 
 // Listen for outside click
-window.addEventListener('click', clickOutside);
+// window.addEventListener('click', clickOutside);
 
 // Function to open Modal
 // function openModal() {
@@ -114,8 +114,36 @@ window.addEventListener('click', clickOutside);
 // }
 
 // Function to close Modal on outside
-function clickOutside(e) {
-    if(e.target == modal){
-    modal.style.display = 'none';
+// function clickOutside(e) {
+//     if(e.target == modal){
+//     modal.style.display = 'none';
+//     }
+// }
+
+//  ------------------------------------------------------------
+
+const imgs = document.querySelectorAll("[data-target]");
+const close_btns = document.querySelectorAll(".closeModalBtn");
+// const overlay = document.querySelector("#overlay");
+
+imgs.forEach(img => {
+    img.addEventListener('click', () => {
+        document.querySelector(img.dataset.target).classList.add('active');
+        overlay.classList.add("active");
+    })
+})
+
+close_btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelector(btn.dataset.target).classList.remove('active');
+        overlay.classList.remove("active");
+    })
+})
+
+/* window.onclick = (e) => {
+    if (e.target == overlay) {
+        const modals = document.querySelectorAll(".modalAbout");
+        modals.forEach((modal) => modal.classList.remove("active"));
+        overlay.classList.remove("active");
     }
-}
+} */

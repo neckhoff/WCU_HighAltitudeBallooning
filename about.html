@@ -147,174 +147,217 @@
         </p>
 
         <div class="cardAboutProfessor" id="Middle">
-          <div class="team_member">
+          <div class="team_member" data-target="#ProfessorMid">
             <div
               class="team_member-image"
-              style="background-image: url('assets/imgs/egomez.jpg')">
-
-              <div class="modalAbout">
-                <div class="modal-content">
-                  <span class="closeModalBtn">&times;</span>
-                  <div class="containerModal">
-                    <div class="rowModal">
-                      <div class="modalLayout">
-                      <div class="modalProfileImg">
-                        <img class="imageProfile" src="assets/imgs/egomez.jpg" alt="Dr. Enrique Gomez">
-                      </div>
-                      </div>
-                      <div class="modalLayout">
-                      <div class="modalCaption">
-                        <div class="captionTitle">Dr. Enrique Gomez</div>
-                        <div class="captionSubtitle">Associate Professor</div>
-                        <div class="captionDescription">
-                          <!-- In the next line, edit or replace the white text. But do not delete the carrot signs (<,>)-->
-                          <p class="captionDescription">Insert Description Here</p>
-                        </div>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
+              style="background-image: url('assets/imgs/egomez.jpg')"
+            ></div>
             <div class="containerAboutCards">
-              <h2>Dr. Enrique <br /> Gomez</h2>
+              <h2>
+                Dr. Enrique <br />
+                Gomez
+              </h2>
               <p class="title">Professor</p>
             </div>
           </div>
         </div>
 
+        <!-- Model for Professor Starts Here -->
+        <div class="modalAbout" id="ProfessorMid">
+          <div class="modal-content">
+            <span class="closeModalBtn" data-target="#ProfessorMid"
+              >&times;</span
+            >
+            <div class="containerModal">
+              <div class="rowModal">
+                <div class="modalLayout">
+                  <div class="modalProfileImg">
+                    <img
+                      class="imageProfile"
+                      src="assets/imgs/egomez.jpg"
+                      alt="Dr. Enrique Gomez"
+                    />
+                  </div>
+                </div>
+                <div class="modalLayout">
+                  <div class="modalCaption">
+                    <div class="captionTitle">Dr. Enrique Gomez</div>
+                    <div class="captionSubtitle">Associate Professor</div>
+                    <div class="captionDescription">
+                      <!-- In the next line, edit or replace the white text. But do not delete the carrot signs (<,>)-->
+                      <p class="captionDescription">Insert Description Here</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transparent Overlay sits behind Modal to click outside window-->
+        <!--<div id="overlay"></div>-->
+
         <div class="spacerVertical"></div>
 
+        <!-- Student Sections Starts Here -->
+        <!-- Student Left Starts Here -->
+
         <div class="row">
-        <!--<div class="column">-->
-        <div class="cardAboutStudent" id="Left">
-          <div class="team_member">
-            <div
-              class="team_member-image"
-              style="
-                background-image: url('assets/imgs/ProfilePlaceholder.png');
-              ">
-              <div class="modalAbout">
-                <div class="modal-content">
-                  <span class="closeBtn">&times;</span>
-                  <div class="containerModal">
-                    <div class="rowModal">
-                      <div class="modalLayout">
-                      <div class="modalProfileImg">
-                        <img class="imageProfile" src="assets/imgs/ProfilePlaceholder.png" alt="Nathan Eckhoff">
-                      </div>
-                      </div>
-                      <div class="modalLayout">
-                      <div class="modalCaption">
-                        <div class="captionTitle">Nathan Eckhoff</div>
-                        <div class="captionSubtitle">Student Design Lead</div>
-                        <div class="captionDescription">
-                          <!-- In the next line, edit or replace the white text. But do not delete the carrot signs (<,>)-->                          
-                          <p class="captionDescription">Insert Description Here</p>
-                        </div>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div class="containerAboutCards">
-              <h2>Nathan <br /> Eckhoff</h2>
-              <p class="title">Student Design Lead</p>
-            </div>
-          </div>
-        </div>
-
-        <!--<div class="column">-->
-        <div class="cardAboutStudent" id="Middle">
-          <div class="team_member">
-            <div
-              class="team_member-image"
-              style="
-                background-image: url('assets/imgs/ProfilePlaceholder.png');
-              ">
-              <div class="modalAbout">
-                <div class="modal-content">
-                  <span class="closeBtn">&times;</span>
-                  <div class="containerModal">
-                    <div class="rowModal">
-                      <div class="modalLayout">
-                      <div class="modalProfileImg">
-                        <img class="imageProfile" src="assets/imgs/ProfilePlaceholder.png" alt="Ian Green">
-                      </div>
-                      </div>
-                      <div class="modalLayout">
-                      <div class="modalCaption">
-                        <div class="captionTitle">Ian Green</div>
-                        <div class="captionSubtitle">Student Design Lead</div>
-                        <div class="captionDescription">
-                          <!-- In the next line, edit or replace the white text. But do not delete the carrot signs (<,>)-->                          
-                          <p class="captionDescription">Insert Description Here</p>
-                        </div>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div class="containerAboutCards">
-              <h2>
-                Ian <br />
-                Green
-              </h2>
-              <p class="title">Student Design Lead</p>
-            </div>
-          </div>
-        </div>
-
-        <!--<div class="column">-->
-          <div class="cardAboutStudent" id="Right">
-            <div class="team_member">
+          <div class="cardAboutStudent" id="Left">
+            <div class="team_member" data-target="#StudentLeft">
               <div
                 class="team_member-image"
                 style="
                   background-image: url('assets/imgs/ProfilePlaceholder.png');
-                ">
-                <div class="modalAbout">
-                  <div class="modal-content">
-                    <span class="closeBtn">&times;</span>
-                    <div class="containerModal">
-                      <div class="rowModal">
-                        <div class="modalLayout">
-                        <div class="modalProfileImg">
-                          <img class="imageProfile" src="assets/imgs/ProfilePlaceholder.png" alt="Ian Green">
-                        </div>
-                        </div>
-                        <div class="modalLayout">
-                        <div class="modalCaption">
-                          <div class="captionTitle">Student</div>
-                          <div class="captionSubtitle">Lorem impsum</div>
-                          <div class="captionDescription">
-                            <!-- In the next line, edit or replace the white text. But do not delete the carrot signs (<,>)-->                          
-                            <p class="captionDescription">Insert Description Here</p>
-                          </div>
-                        </div>
-                        </div>
+                "
+              ></div>
+              <div class="containerAboutCards">
+                <h2>
+                  Nathan <br />
+                  Eckhoff
+                </h2>
+                <p class="title">Student Design Lead</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal for Student Left-->
+          <div class="modalAbout" id="StudentLeft">
+            <div class="modal-content">
+              <span class="closeModalBtn" data-target="#StudentLeft"
+                >&times;</span
+              >
+              <div class="containerModal">
+                <div class="rowModal">
+                  <div class="modalLayout">
+                    <div class="modalProfileImg">
+                      <img
+                        class="imageProfile"
+                        src="assets/imgs/ProfilePlaceholder.png"
+                        alt="Nathan Eckhoff"
+                      />
+                    </div>
+                  </div>
+                  <div class="modalLayout">
+                    <div class="modalCaption">
+                      <div class="captionTitle">Nathan Eckhoff</div>
+                      <div class="captionSubtitle">Student Design Lead</div>
+                      <div class="captionDescription">
+                        <!-- In the next line, edit or replace the white text. But do not delete the carrot signs (<,>)-->
+                        <p class="captionDescription">
+                          Insert Description Here
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
-  
               </div>
+            </div>
+          </div>
+
+          <!-- Student Middle Starts Here -->
+          <div class="cardAboutStudent" id="Middle">
+            <div class="team_member" data-target="#StudentMid">
+              <div
+                class="team_member-image"
+                style="
+                  background-image: url('assets/imgs/ProfilePlaceholder.png');
+                "
+              ></div>
               <div class="containerAboutCards">
                 <h2>
-                  Student
+                  Ian <br />
+                  Green
                 </h2>
+                <p class="title">Student Design Lead</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal for Student Middle-->
+          <div class="modalAbout" id="StudentMid">
+            <div class="modal-content">
+              <span class="closeModalBtn" data-target="#StudentMid"
+                >&times;</span
+              >
+              <div class="containerModal">
+                <div class="rowModal">
+                  <div class="modalLayout">
+                    <div class="modalProfileImg">
+                      <img
+                        class="imageProfile"
+                        src="assets/imgs/ProfilePlaceholder.png"
+                        alt="Ian Green"
+                      />
+                    </div>
+                  </div>
+                  <div class="modalLayout">
+                    <div class="modalCaption">
+                      <div class="captionTitle">Ian Green</div>
+                      <div class="captionSubtitle">Student Design Lead</div>
+                      <div class="captionDescription">
+                        <!-- In the next line, edit or replace the white text. But do not delete the carrot signs (<,>)-->
+                        <p class="captionDescription">
+                          Insert Description Here
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Student Right Starts Here -->
+          <div class="cardAboutStudent" id="Right">
+            <div class="team_member" data-target="#StudentRight">
+              <div
+                class="team_member-image"
+                style="
+                  background-image: url('assets/imgs/ProfilePlaceholder.png');
+                "
+              ></div>
+              <div class="containerAboutCards">
+                <h2>Student</h2>
                 <p class="title">Lorem impsum</p>
               </div>
             </div>
           </div>
+
+          <!-- Modal for Student Right-->
+          <div class="modalAbout" id="StudentRight">
+            <div class="modal-content">
+              <span class="closeModalBtn" data-target="#StudentRight"
+                >&times;</span
+              >
+              <div class="containerModal">
+                <div class="rowModal">
+                  <div class="modalLayout">
+                    <div class="modalProfileImg">
+                      <img
+                        class="imageProfile"
+                        src="assets/imgs/ProfilePlaceholder.png"
+                        alt="Student"
+                      />
+                    </div>
+                  </div>
+                  <div class="modalLayout">
+                    <div class="modalCaption">
+                      <div class="captionTitle">Student</div>
+                      <div class="captionSubtitle">Lorem impsum</div>
+                      <div class="captionDescription">
+                        <!-- In the next line, edit or replace the white text. But do not delete the carrot signs (<,>)-->
+                        <p class="captionDescription">
+                          Insert Description Here
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!--<div class="row align-items-center mr-auto">
