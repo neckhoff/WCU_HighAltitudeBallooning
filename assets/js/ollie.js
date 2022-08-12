@@ -66,30 +66,52 @@ $('#owl-testmonial').owlCarousel({
 // About Modals
 
 // Get Modal Element
-var modal = document.getElementById('simpleModal');
+// var modal = document.getElementById('simpleModal');
+const boxes = document.getElementsByClassName('modal');
+
+for (const box of boxes) {
+  box.addEventListener('click', function closeModal(event) {
+    console.log('box clicked', event);
+    this.setAttribute('style', 'display: none;');
+    this.style.display = 'none';
+  });
+}
+
+
+const triggers = document.getElementsByClassName('team_member');
+
+for (const trigger of triggers) {
+    trigger.addEventListener('click', function openModal(event) {
+    console.log('trigger clicked', event);
+    var n = this.querySelector('#simpleModal');
+    n.setAttribute('style', 'display: block;');
+    // modal.style.display = 'none';
+  });
+}
+
 // Get Open Modal Element
-var modalImg = document.getElementById('researcher-modal-trigger');
+// var modalImg = document.getElementById('researcher-modal-trigger');
 // Get Close Button
-var closeBtn = document.getElementById('closeModalBtn1');
+// var closeBtn = document.getElementById('closeModalBtn1');
 
 // Listen for open click
-modalImg.addEventListener('click', openModal);
+// modalImg.addEventListener('click', openModal);
 
 // Listen for close click
-closeBtn.addEventListener('click', closeModal);
+// closeBtn.addEventListener('click', closeModal);
 
 // Listen for outside click
 window.addEventListener('click', clickOutside);
 
 // Function to open Modal
-function openModal() {
-    modal.style.display = 'block';
-}
+// function openModal() {
+//    modal.style.display = 'block';
+// }
 
 // Function to close Modal
-function closeModal() {
-    modal.style.display = 'none';
-}
+// function closeModal() {
+//    modal.style.display = 'none';
+// }
 
 // Function to close Modal on outside
 function clickOutside(e) {

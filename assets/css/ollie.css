@@ -6632,7 +6632,7 @@ p.captionDescription {
 }
 
 /* The Close Button */
-.closeBtn#closeModalBtn {
+.closeBtn#closeModalBtn1 {
   position: absolute;
   top: 80px;
   right: 35px;
@@ -6641,8 +6641,8 @@ p.captionDescription {
   font-weight: bold;
 }
 
-.closeBtn#closeModalBtn:hover,
-.closeBtn#closeModalBtn:focus {
+.closeBtn#closeModalBtn1:hover,
+.closeBtn#closeModalBtn1:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
