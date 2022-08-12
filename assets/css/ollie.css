@@ -5154,6 +5154,7 @@ input[type="button"].btn-block {
   height: 410px;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 }
 
 .cardAboutStudent#Left {
@@ -5161,6 +5162,7 @@ input[type="button"].btn-block {
   height: 430px;
   margin-right: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 }
 
 .cardAboutStudent#Middle {
@@ -5168,6 +5170,7 @@ input[type="button"].btn-block {
   height: 430px;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 }
 
 .cardAboutStudent#Right {
@@ -5175,6 +5178,7 @@ input[type="button"].btn-block {
   height: 430px;
   margin-left: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 }
 
 .team_member {
