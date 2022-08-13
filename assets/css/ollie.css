@@ -608,10 +608,10 @@ pre code {
 
 .containerTopContent {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 50px;
+  padding-left: 65px;
   margin-right: auto;
-  margin-left: 100px;
+  margin-left: 0px;
   border-bottom: 2px solid black;
 }
 
@@ -11967,10 +11967,9 @@ pre .code {
 }
 
 .sectionTopContent {
-  padding-top: 50px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-  padding-left: 10px;
+  padding: 50px 10px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: #ccf5ff;
   /*border-bottom: 3px solid black;*/
 
