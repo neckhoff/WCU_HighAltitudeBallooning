@@ -85,6 +85,50 @@ body#HABalloons {
   background-color: #ccf5ff;
 }
 
+body#MuonDetector {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #ccf5ff;
+}
+
+body#CanSat {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #ccf5ff;
+}
+
+body#QB2 {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #ccf5ff;
+}
+
+body#Capstone22-23 {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #ccf5ff;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
