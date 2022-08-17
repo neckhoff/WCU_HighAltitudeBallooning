@@ -668,6 +668,7 @@ pre code {
 
 .containerCanSat {
   width: 100%;
+  max-width: 1705px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -12054,10 +12055,10 @@ pre .code {
   padding: 173px 10px;
 }
 
-.section:nth-child(odd) {
-  /* background-color: #ccf5ff;*/
+/* .section:nth-child(odd) {
+  /* background-color: #ccf5ff; /
    background-color: #e6faff;
-}
+} */
 
 .section.p-sm {
   padding: 30px 0 !important;
