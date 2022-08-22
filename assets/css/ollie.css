@@ -651,6 +651,15 @@ pre code {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
+.containerSponsorCards {
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container::after, .row::after {
   content: "";
   clear: both;
@@ -5242,6 +5251,24 @@ input[type="button"].btn-block {
   background-color: #ffffff;
 }
 
+.cardSponsor#Left {
+  width: 500px;
+  height: 547px;
+  margin-left: 80px;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.cardSponsor#Right {
+  width: 500px;
+  height: 547px;
+  margin-right: 80px;
+  margin-left: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
 .team_member {
   height: 265px;
   margin-bottom: 30px;
@@ -5252,6 +5279,20 @@ input[type="button"].btn-block {
 .team_member-image {
   height: 265px;
   background-size: 175px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sponsor {
+  height: 400px;
+  margin-bottom: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sponsor-image {
+  height: 400px;
+  background-size: 400px;
   background-position: center;
   background-repeat: no-repeat;
 }
