@@ -623,8 +623,8 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: 366.5px;
+  margin-right: 90px;
+  margin-left: 90px;
 }
 
 .containerAboutCards {
@@ -633,6 +633,15 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.containerAboutSubtitle {
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 35px;
+  margin-right: auto;
+  margin-left: 0px;
+  border-bottom: 2px solid black;
 }
 
 .containerModal {
@@ -695,7 +704,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1300px;
   }
 }
 
@@ -5201,23 +5210,23 @@ input[type="button"].btn-block {
   }
 }
 
-.cardAboutProfessor#Middle {
+/* .cardAboutProfessor#Middle {
   width: 250px;
   height: 410px;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
-}
+} */
 
-.cardAboutStudent#Left {
+.cardAbout#Left {
   width: 250px;
   height: 430px;
-  margin-right: auto;
+  margin-left: 80px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
 
-.cardAboutStudent#Middle {
+.cardAbout#Middle {
   width: 250px;
   height: 430px;
   margin: auto;
@@ -5225,10 +5234,10 @@ input[type="button"].btn-block {
   background-color: #ffffff;
 }
 
-.cardAboutStudent#Right {
+.cardAbout#Right {
   width: 250px;
   height: 430px;
-  margin-left: auto;
+  margin-right: 80px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
@@ -5248,7 +5257,7 @@ input[type="button"].btn-block {
 }
 
 .spacerVertical {
-  height: 20px;
+  height: 40px;
 }
 
 .card {
@@ -6591,6 +6600,7 @@ a.close.disabled {
 img.imageProfile {
   width: 100%;
   height: 100%;
+  scale: 0.95;
 }
 
 .caption {
@@ -11700,7 +11710,7 @@ pre .code {
 
 .header-about {
   position: relative;
-  height: 10vh;
+  height: 96.2px;
   max-height: 100px;
   /* background-image: url(../imgs/header.jpg);
   background-size: cover;
@@ -12012,7 +12022,7 @@ pre .code {
 }
 
 .section#About {
-  padding-top: 50px;
+  padding-top: 75px;
   padding-right: 10px;
   padding-bottom: 20px;
   padding-left: 10px;
