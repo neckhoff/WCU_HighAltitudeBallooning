@@ -686,10 +686,10 @@ pre code {
 
 .containerCanSat {
   width: 100%;
-  max-width: 1705px;
+  max-width: 1300px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
+  margin-right: 50px;
   margin-left: 50px;
 }
 
@@ -11798,7 +11798,7 @@ pre .code {
 
 .header-HABalloons {
   position: relative;
-  height: 10vh;
+  height: 96.2px;
   max-height: 100px;
   /* background-image: url(../imgs/header.jpg);
   background-size: cover;
@@ -11816,7 +11816,7 @@ pre .code {
 
 .header-MuonDetector {
   position: relative;
-  height: 10vh;
+  height: 96.2px;
   max-height: 100px;
   /* background-image: url(../imgs/header.jpg);
   background-size: cover;
@@ -11834,7 +11834,7 @@ pre .code {
 
 .header-CanSat {
   position: relative;
-  height: 10vh;
+  height: 96.2px;
   max-height: 100px;
   /* background-image: url(../imgs/header.jpg);
   background-size: cover;
@@ -11852,7 +11852,7 @@ pre .code {
 
 .header-QB2 {
   position: relative;
-  height: 10vh;
+  height: 96.2px;
   max-height: 100px;
   /* background-image: url(../imgs/header.jpg);
   background-size: cover;
@@ -11870,7 +11870,7 @@ pre .code {
 
 .header-Capstone2022-23 {
   position: relative;
-  height: 10vh;
+  height: 96.2px;
   max-height: 100px;
   /* background-image: url(../imgs/header.jpg);
   background-size: cover;
@@ -11888,7 +11888,7 @@ pre .code {
 
 .header-Contact {
   position: relative;
-  height: 10vh;
+  height: 96.2px;
   max-height: 100px;
   /* background-image: url(../imgs/header.jpg);
   background-size: cover;
