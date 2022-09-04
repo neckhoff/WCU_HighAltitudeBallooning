@@ -162,13 +162,7 @@
               kit.-->
             </p>
             <p>
-              <!--The CanSat, short for Can Satellite, is a build-it-yourself
-              educational tool to teach students the basics of satellite
-              development. A printed circuit board for each critical subsystem
-              is provided as well as all the parts. Students must solder each
-              component in to its appropriate placement according to the
-              provided user manual. Once fully assembled, the size of the CanSat
-              is smaller than the size of a soda can.-->
+              <!-- A traditional CanSat is a soda can sized satellite that gives students a real product to experiment with. First conceptualized by Professor Robert Twiggs in Hawaii during the November 1998 "University Space Systems Symposium", CanSats have held the spotlight as the basis of many competitions and workshops. At Twiggs Space Labs, Bob Twiggs and Jose Garcia developed a build-it-yourself CanSat kit as an educational tool to aid students learning about Satellite design. Provided with custom Printed Circuit Boards and all of the components, students must solder each part on to each subsystem according to the provided user manual.-->
             </p>
             <!--<p>
               Cubito is a similar educational tool like the CanSat, but all its
@@ -178,68 +172,41 @@
               normal 10 x 10 x 10 cm CubeSat.
             </p>-->
             <p>
-              <!--Starting in mid-May, Nathan Eckhoff, began assembling the CanSat.
-              Each subsystem came with three 6-pin stackable headers so the BUS
-              signals could communicate between them. The Bottom Plate Adapter
-              contained hardware to give the rest of the CanSat a way to attach
-              onto an external piece of hardware such as a payload deployment
-              system.-->
+              <!--Starting in mid-May, Nathan Eckhoff, began assembling the CanSat. Each subsystem came with stackable headers for BUS signals communication between them. The Bottom Plate Adapter is the anchor point of the CanSat, giving the satellite the ability to attach itself to the launch system.-->
             </p>
             <p>
-              <!--The Command and Data Handling Subsystem contains a MicroSD chip
-              for datalogging, a Xiao Seeeduino microcontroller, an EEPROM, and
-              a few other circuit components. The microcontroller communicates
-              with the two integrated BUS systems, an I2C and a MISO/MOSI.-->
+              <!-- The Command and Data Handling Subsystem houses a MicroSD receptacle, a Xiao Seeeduino microcontroller, and an EEPROM for microcontroller memory. Using an integration of an Inter-Integrated Circuit and a Serial Peripheral Interface BUS system, the microcontroller reads signals from all of the BUS terminals.-->
             </p>
             <p>
-              <!--The Electrical Power Subsystem contains a premade, custom Battery
-              Module which helps distribute the power from the battery to the
-              correct terminals, charges the battery via microUSB, routes power
-              out so a different system can harness power from the CanSat, and
-              can also accept a small Solar Panel for power regeneration. This
-              is also where the hardware lies to power on the CanSat via
-              crossing two rails with a Long Jumper connector.-->
+              <!-- The Electrical Power Subsystem connects a rechargable Lithium-Ion Battery to power the CanSat Kit via a custom "Solar Battery charger module." Through the module, the battery can be recharged through a micro-USB port and a 5V Solar Panel could be added. Crossing two terminals allows current to flow to the rest of the CanSat Kit.-->
             </p>
             <p>
-              <!--The Attitude Determination Subsystem houses a breakout board with
-              an accelerometer, gyroscope, magnetometer, barometer, and a
-              temperature sensor. A Sun Sensor also resides in this subsystem,
-              separated from the breakout board.-->
+              <!-- The Attitude Determination Subsystem contains all of the provided sensors for data collection either by datalogging to the MicroSD card or over telemetry signals.-->
             </p>
             <p>
-              <!--The Communications Subsystem contains monitoring LEDs for the
-              telemetry and payload as well as ports for an XBee Bluetooth
-              Module or Long-Range Radio Chip, both are compatible for the same
-              socket, and a GPS Receiver. An OLED screen may also be attached to
-              view data collected.-->
+              <!-- The Communications Subsystem uses either a XBee Bluetooth Module or a Long-Range Radio Module to transmit telemetry to a ground station and can display data on an OLED screen. A GPS receiver can be added to acquire positional telemetry.-->
             </p>
             <p>
-              <!--Additionally, the CanSat houses a Payload Subsytem with labeled
-              BUS terminals to give students the opportunity to integrate their
-              own experiments into the existing power and microcontroller
-              capabilities.-->
+              <!--Additionally, the CanSat Kit houses a Payload Subsytem with labeled BUS terminals to give students the opportunity to integrate their own experiments into the existing power and microcontroller capabilities. Currently Nathan is attempting to develop a circuit that could record sounds in the upper atmosphere using a microphone breakout board. The microphone has been able to detect sounds and the Serial Plotter through the Arduino IDE has plotted the acquired data. Nathan is working on adding components so the recovered data could be listened to upon CanSat landing.-->
             </p>
             <p>
-              <!--After working with Twiggs Space Labs to get several problems
-              fixed, Nathan Eckhoff successfully connected the CanSat via
-              Bluetooth to their Macbook and achieved a range of 50 feet from
-              the laptop. We ordered a GP-735 GPS receiver to retrieve position
-              telemetry from the constellation of GPS satellites, and Nathan
-              Eckhoff installed the module via the port provided on the
-              Communications Subsystem. After Ian Green returned prior to the
-              semester, both students were able to identify the terminals
-              required for the GPS receiver and acquired telemetry.-->
+              <!-- Several problems arose through construction. Firstly, power flowed to the entire system despite the power-on terminals not being crossed. After troubleshooting with Twiggs Space Labs, Nathan Eckhoff found a short between two components, fixed it, then the power worked as intended. Another problem was the Bluetooth module connecting to a Windows 10 computer with Bluetooth capabilities. After a lot of research, Nathan found that although his Windows computer will create a Bluetooth port, it won't actually connect to the Bluetooth Module. However, Nathan's Macbook connected just fine and was able to recieve telemetry data.-->
             </p>
             <p>
-              <!--Currently we are attempting to integrate the GPS Arduino Sketch,
-              Data Collection Arduino Sketch, and Datalogger Arduino Sketch into
-              one so we may collect GPS and sensor data in future launch
-              opportunities.-->
+              <!--Since the Bluetooth module only has a range of approximately 50 feet, Dr. Gomez and Nathan ordered a GP-735 GPS receiver and integrated it into the CanSat Kit. Telemetry data from GPS satellites was acquired and logged into the MicroSD card. Currently Nathan Eckhoff and Ian Green are integrating the GPS Arduino Sketch into the provided Twiggs Space Labs Arduino Sketches. We are encountering an issue where the integrated program is not initializing the file to be written to. Upon tackling this error, the CanSat Kit will be ready for a tethered weather balloon flight.-->
             </p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Include about the history of overall cansat. Not twiggs space labs derivision
+Other than personal projects, everything else is funded through destination space.
+I must include information about them.
+Instead of sending information from a loop. Send gps as a character.
+Create a flowchart to help debug.
+Explain the functionality of the BUS in relation to the components of the different subsytems.
+ -->
 
     <!--Contact Us Secion. Would like to create a separate page instead of below-->
     <section id="contact" class="section pb-0">
