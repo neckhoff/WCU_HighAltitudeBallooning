@@ -9952,6 +9952,12 @@ button.bg-dark:focus {
   margin-bottom: 3rem !important;
 }
 
+.mb-5#contact,
+.my-5#contact {
+  margin-bottom: 3rem !important;
+  color: #ffffff;
+}
+
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
@@ -12856,7 +12862,7 @@ pre .code {
 }
 
 .footer a, .footer p {
-  color: #343a40;
+  color: #ffffff;
   padding: 4px 0;
   display: inline-block;
   margin: 0;
@@ -13259,6 +13265,7 @@ pre .code {
 
 .section#contact {
   padding: 10px 10px;
+  background-color: #425262;
 }
 
 /* .section:nth-child(odd) {
