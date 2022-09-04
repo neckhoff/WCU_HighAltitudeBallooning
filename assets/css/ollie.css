@@ -623,8 +623,8 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: 90px;
-  margin-left: 90px;
+  margin-right: auto;
+  margin-left: 40px;
 }
 
 .containerAboutCards {
@@ -878,7 +878,7 @@ pre code {
     max-width: 1900px;
   }
   .container#About {
-    max-width: 1900px;
+    max-width: 1790px;
   }
   .containerAboutCards {
     max-width: 1900px;
@@ -4020,7 +4020,7 @@ input[type="button"].btn-block {
   display: none;
   float: left;
   min-width: 10rem;
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #212529;
@@ -5732,15 +5732,15 @@ input[type="button"].btn-block {
 } */
 
 .cardAbout#Left {
-  width: 250px;
+  width: 300px;
   height: 430px;
-  margin-left: 80px;
+  margin-left: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
 
 .cardAbout#Middle {
-  width: 250px;
+  width: 300px;
   height: 430px;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -5748,9 +5748,9 @@ input[type="button"].btn-block {
 }
 
 .cardAbout#Right {
-  width: 250px;
+  width: 300px;
   height: 430px;
-  margin-right: 80px;
+  margin-right: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
@@ -5758,7 +5758,7 @@ input[type="button"].btn-block {
 .cardSponsor#Left {
   width: 500px;
   height: 547px;
-  margin-left: 80px;
+  margin-left: 300px;
   margin-right: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
@@ -5767,7 +5767,7 @@ input[type="button"].btn-block {
 .cardSponsor#Right {
   width: 500px;
   height: 547px;
-  margin-right: 80px;
+  margin-right: 300px;
   margin-left: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
@@ -7566,6 +7566,7 @@ p.captionDescription {
   position: relative;
   width: 100%;
   overflow: hidden;
+  padding-top: 50px;
 }
 
 .carousel-inner::after {
@@ -12703,7 +12704,9 @@ p.pageDescription {
 }
 
 .navbar-toggler {
-  position: relative;
+  position: absolute;
+  right: 30px;
+  top: 30px;
   border: none;
   outline: none !important;
   height: 30px;
@@ -13124,7 +13127,7 @@ pre .code {
           flex-grow: 1;
   width: 100%;
   text-align: left;
-  padding: 20px 0;
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -13225,7 +13228,7 @@ pre .code {
 }
 
 .section#About {
-  padding-top: 75px;
+  padding-top: 30px;
   padding-right: 10px;
   padding-bottom: 20px;
   padding-left: 10px;
