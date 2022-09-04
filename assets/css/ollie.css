@@ -441,7 +441,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 h4, .h4 {
@@ -669,7 +669,7 @@ pre code {
 .containerTopContent {
   width: 100%;
   padding-right: 50px;
-  padding-left: 65px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: 0px;
   border-bottom: 2px solid black;
@@ -690,7 +690,7 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 @media (min-width: 320px) {
@@ -840,6 +840,96 @@ pre code {
   }
   .containerCanSat {
     max-width: 1300px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1500px;
+  }
+  .container#About {
+    max-width: 1500px;
+  }
+  .containerAboutCards {
+    max-width: 1500px;
+  }
+  .containerAboutSubtitle {
+    max-width: 1500px;
+  }
+  .containerModal {
+    max-width: 1500px;
+  }
+  .containerSponsorCards {
+    max-width: 1500px;
+  }
+  .containerTopContent {
+    max-width: 1500px;
+  }
+  .containerCataBalloons {
+    max-width: 1500px;
+  }
+  .containerCanSat {
+    max-width: 1500px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1900px;
+  }
+  .container#About {
+    max-width: 1900px;
+  }
+  .containerAboutCards {
+    max-width: 1900px;
+  }
+  .containerAboutSubtitle {
+    max-width: 1900px;
+  }
+  .containerModal {
+    max-width: 1900px;
+  }
+  .containerSponsorCards {
+    max-width: 1900px;
+  }
+  .containerTopContent {
+    max-width: 1790px;
+  }
+  .containerCataBalloons {
+    max-width: 1900px;
+  }
+  .containerCanSat {
+    max-width: 1750px;
+  }
+}
+
+@media (min-width: 1950px) {
+  .container {
+    max-width: 2000px;
+  }
+  .container#About {
+    max-width: 2000px;
+  }
+  .containerAboutCards {
+    max-width: 2000px;
+  }
+  .containerAboutSubtitle {
+    max-width: 2000px;
+  }
+  .containerModal {
+    max-width: 2000px;
+  }
+  .containerSponsorCards {
+    max-width: 2000px;
+  }
+  .containerTopContent {
+    max-width: 2000px;
+  }
+  .containerCataBalloons {
+    max-width: 2000px;
+  }
+  .containerCanSat {
+    max-width: 2000px;
   }
 }
 
@@ -13136,7 +13226,7 @@ pre .code {
 }
 
 .sectionTopContent {
-  padding: 50px 10px 20px;
+  padding: 50px 10px 10px;
   margin-left: 50px;
   margin-right: 50px;
   background-color: #ccf5ff;
@@ -13157,7 +13247,7 @@ pre .code {
 }
 
 .sectionCanSat {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 10px;
   padding-bottom: 20px;
   padding-right: 10px;
@@ -13168,7 +13258,7 @@ pre .code {
 }
 
 .section#contact {
-  padding: 173px 10px;
+  padding: 10px 10px;
 }
 
 /* .section:nth-child(odd) {
