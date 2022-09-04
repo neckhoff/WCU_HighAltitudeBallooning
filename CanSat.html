@@ -156,13 +156,23 @@
         <div class="row align-items-center mr-auto">
           <div class="col-md-4-CanSat">
             <p>
-              <!--In early February 2022, Dr. Gomez and Nathan Eckhoff met with
+              In early February 2022, Dr. Gomez and Nathan Eckhoff met with
               Twiggs Space Lab to discuss their CanSat and Cubito educational
               products, and six weeks later we received both a CanSat and Cubito
-              kit.-->
+              kit.
             </p>
             <p>
-              <!-- A traditional CanSat is a soda can sized satellite that gives students a real product to experiment with. First conceptualized by Professor Robert Twiggs in Hawaii during the November 1998 "University Space Systems Symposium", CanSats have held the spotlight as the basis of many competitions and workshops. At Twiggs Space Labs, Bob Twiggs and Jose Garcia developed a build-it-yourself CanSat kit as an educational tool to aid students learning about Satellite design. Provided with custom Printed Circuit Boards and all of the components, students must solder each part on to each subsystem according to the provided user manual.-->
+              A traditional CanSat is a soda can sized satellite that gives
+              students a real product to experiment with. First conceptualized
+              by Professor Robert Twiggs in Hawaii during the November 1998
+              "University Space Systems Symposium", CanSats have held the
+              spotlight as the basis of many competitions and workshops. At
+              Twiggs Space Labs, Bob Twiggs and Jose Garcia developed a
+              build-it-yourself CanSat kit as an educational tool to aid
+              students learning about Satellite design. Provided with custom
+              Printed Circuit Boards and all of the components, students must
+              solder each part on to each subsystem according to the provided
+              user manual.
             </p>
             <!--<p>
               Cubito is a similar educational tool like the CanSat, but all its
@@ -172,28 +182,73 @@
               normal 10 x 10 x 10 cm CubeSat.
             </p>-->
             <p>
-              <!--Starting in mid-May, Nathan Eckhoff, began assembling the CanSat. Each subsystem came with stackable headers for BUS signals communication between them. The Bottom Plate Adapter is the anchor point of the CanSat, giving the satellite the ability to attach itself to the launch system.-->
+              Starting in mid-May, Nathan Eckhoff, began assembling the CanSat.
+              Each subsystem came with stackable headers for BUS signals
+              communication between them. The Bottom Plate Adapter is the anchor
+              point of the CanSat, giving the satellite the ability to attach
+              itself to the launch system.
             </p>
             <p>
-              <!-- The Command and Data Handling Subsystem houses a MicroSD receptacle, a Xiao Seeeduino microcontroller, and an EEPROM for microcontroller memory. Using an integration of an Inter-Integrated Circuit and a Serial Peripheral Interface BUS system, the microcontroller reads signals from all of the BUS terminals.-->
+              The Command and Data Handling Subsystem houses a MicroSD
+              receptacle, a Xiao Seeeduino microcontroller, and an EEPROM for
+              microcontroller memory. Using an integration of an
+              Inter-Integrated Circuit and a Serial Peripheral Interface BUS
+              system, the microcontroller reads signals from all of the BUS
+              terminals.
             </p>
             <p>
-              <!-- The Electrical Power Subsystem connects a rechargable Lithium-Ion Battery to power the CanSat Kit via a custom "Solar Battery charger module." Through the module, the battery can be recharged through a micro-USB port and a 5V Solar Panel could be added. Crossing two terminals allows current to flow to the rest of the CanSat Kit.-->
+              The Electrical Power Subsystem connects a rechargable Lithium-Ion
+              Battery to power the CanSat Kit via a custom "Solar Battery
+              charger module." Through the module, the battery can be recharged
+              through a micro-USB port and a 5V Solar Panel could be added.
+              Crossing two terminals allows current to flow to the rest of the
+              CanSat Kit.
             </p>
             <p>
-              <!-- The Attitude Determination Subsystem contains all of the provided sensors for data collection either by datalogging to the MicroSD card or over telemetry signals.-->
+              The Attitude Determination Subsystem contains all of the provided
+              sensors for data collection either by datalogging to the MicroSD
+              card or over telemetry signals.
             </p>
             <p>
-              <!-- The Communications Subsystem uses either a XBee Bluetooth Module or a Long-Range Radio Module to transmit telemetry to a ground station and can display data on an OLED screen. A GPS receiver can be added to acquire positional telemetry.-->
+              The Communications Subsystem uses either a XBee Bluetooth Module
+              or a Long-Range Radio Module to transmit telemetry to a ground
+              station and can display data on an OLED screen. A GPS receiver can
+              be added to acquire positional telemetry.
             </p>
             <p>
-              <!--Additionally, the CanSat Kit houses a Payload Subsytem with labeled BUS terminals to give students the opportunity to integrate their own experiments into the existing power and microcontroller capabilities. Currently Nathan is attempting to develop a circuit that could record sounds in the upper atmosphere using a microphone breakout board. The microphone has been able to detect sounds and the Serial Plotter through the Arduino IDE has plotted the acquired data. Nathan is working on adding components so the recovered data could be listened to upon CanSat landing.-->
+              Additionally, the CanSat Kit houses a Payload Subsytem with
+              labeled BUS terminals to give students the opportunity to
+              integrate their own experiments into the existing power and
+              microcontroller capabilities. Currently Nathan is attempting to
+              develop a circuit that could record sounds in the upper atmosphere
+              using a microphone breakout board. The microphone has been able to
+              detect sounds and the Serial Plotter through the Arduino IDE has
+              plotted the acquired data. Nathan is working on adding components
+              so the recovered data could be listened to upon CanSat landing.
             </p>
             <p>
-              <!-- Several problems arose through construction. Firstly, power flowed to the entire system despite the power-on terminals not being crossed. After troubleshooting with Twiggs Space Labs, Nathan Eckhoff found a short between two components, fixed it, then the power worked as intended. Another problem was the Bluetooth module connecting to a Windows 10 computer with Bluetooth capabilities. After a lot of research, Nathan found that although his Windows computer will create a Bluetooth port, it won't actually connect to the Bluetooth Module. However, Nathan's Macbook connected just fine and was able to recieve telemetry data.-->
+              Several problems arose through construction. Firstly, power flowed
+              to the entire system despite the power-on terminals not being
+              crossed. After troubleshooting with Twiggs Space Labs, Nathan
+              Eckhoff found a short between two components, fixed it, then the
+              power worked as intended. Another problem was the Bluetooth module
+              connecting to a Windows 10 computer with Bluetooth capabilities.
+              After a lot of research, Nathan found that although his Windows
+              computer will create a Bluetooth port, it won't actually connect
+              to the Bluetooth Module. However, Nathan's Macbook connected just
+              fine and was able to recieve telemetry data.
             </p>
             <p>
-              <!--Since the Bluetooth module only has a range of approximately 50 feet, Dr. Gomez and Nathan ordered a GP-735 GPS receiver and integrated it into the CanSat Kit. Telemetry data from GPS satellites was acquired and logged into the MicroSD card. Currently Nathan Eckhoff and Ian Green are integrating the GPS Arduino Sketch into the provided Twiggs Space Labs Arduino Sketches. We are encountering an issue where the integrated program is not initializing the file to be written to. Upon tackling this error, the CanSat Kit will be ready for a tethered weather balloon flight.-->
+              Since the Bluetooth module only has a range of approximately 50
+              feet, Dr. Gomez and Nathan ordered a GP-735 GPS receiver and
+              integrated it into the CanSat Kit. Telemetry data from GPS
+              satellites was acquired and logged into the MicroSD card.
+              Currently Nathan Eckhoff and Ian Green are integrating the GPS
+              Arduino Sketch into the provided Twiggs Space Labs Arduino
+              Sketches. We are encountering an issue where the integrated
+              program is not initializing the file to be written to. Upon
+              tackling this error, the CanSat Kit will be ready for a tethered
+              weather balloon flight.
             </p>
           </div>
         </div>
