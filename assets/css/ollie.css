@@ -6088,19 +6088,28 @@ input[type="button"].btn-block {
 
 @media only screen and (min-width: 1800px) {
   .cardAbout#Left {
-    max-width: 1900px;
+    max-width: 300px;
+    margin-left: 200px;
+    margin-right: auto;
   }
   .cardAbout#Middle {
-    max-width: 1900px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 0px;
   }
   .cardAbout#Right {
-    max-width: 1900px;
+    max-width: 300px;
+    margin-right: 200px;
+    margin-left: auto;
+    margin-top: 0px;
   }
   .cardSponsor#Left {
-    max-width: 1900px;
+    max-width: 500px;
+    height: 547px;
+    margin-left: auto;
   }
   .cardSponsor#Right {
-    max-width: 1900px;
+    max-width: 500px;
   }
   .team_member {
     max-width: 1900px;
@@ -6112,10 +6121,16 @@ input[type="button"].btn-block {
     max-width: 1900px;
   }
   .sponsor-image {
-    max-width: 1900px;
+    max-width: 500px;
+    height: 400px;
+    width: auto;
+    left: 50px;
   }
   .sponsor-image-NCGrant {
-    max-width: 1900px;
+    max-width: 500px;
+    height: 400px;
+    width: auto;
+    left: -5px;
   }
   .spacerVertical {
     max-width: 1900px;
