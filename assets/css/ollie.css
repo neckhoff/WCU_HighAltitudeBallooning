@@ -849,6 +849,36 @@ pre code {
     max-width: 1500px;
   }
   .container#About {
+    max-width: 1450px;
+  }
+  .containerAboutCards {
+    max-width: 1500px;
+  }
+  .containerAboutSubtitle {
+    max-width: 1500px;
+  }
+  .containerModal {
+    max-width: 1500px;
+  }
+  .containerSponsorCards {
+    max-width: 1500px;
+  }
+  .containerTopContent {
+    max-width: 1500px;
+  }
+  .containerCataBalloons {
+    max-width: 1500px;
+  }
+  .containerCanSat {
+    max-width: 1500px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1500px;
+  }
+  .container#About {
     max-width: 1300px;
   }
   .containerAboutCards {
@@ -6053,18 +6083,28 @@ input[type="button"].btn-block {
   }
   .cardAbout#Middle {
     max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
   }
   .cardAbout#Right {
     max-width: 300px;
+    margin-left: 0px;
     margin-right: 100px;
+    margin-top: 0px;
   }
   .cardSponsor#Left {
     max-width: 500px;
-    margin-left: 100px;
+    height: 547px;
+    margin-left: 150px;
+    margin-right: auto;
   }
   .cardSponsor#Right {
     max-width: 500px;
-    margin-right: 100px;
+    height: 547px;
+    margin-right: 150px;
+    margin-left: auto;
+    margin-top: 0px;
   }
   .team_member {
     max-width: 1500px;
@@ -6076,10 +6116,20 @@ input[type="button"].btn-block {
     max-width: 1500px;
   }
   .sponsor-image {
-    max-width: 1500px;
+    max-width: 400px;
+    position: relative;
+    width: auto;
+    height: 400px;
+    left: 50px;
+    top: 10px;
   }
   .sponsor-image-NCGrant {
-    max-width: 1500px;
+    max-width: 400px;
+    position: relative;
+    width: auto;
+    height: 400px;
+    left: 80px;
+    top: 10px;
   }
   .spacerVertical {
     max-width: 1500px;
