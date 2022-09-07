@@ -441,7 +441,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 h4, .h4 {
@@ -623,8 +623,8 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: 90px;
-  margin-left: 90px;
+  margin-right: auto;
+  margin-left: 40px;
 }
 
 .containerAboutCards {
@@ -669,7 +669,7 @@ pre code {
 .containerTopContent {
   width: 100%;
   padding-right: 50px;
-  padding-left: 65px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: 0px;
   border-bottom: 2px solid black;
@@ -690,7 +690,7 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 @media (min-width: 320px) {
@@ -699,6 +699,7 @@ pre code {
   }
   .container#About {
     max-width: 300px;
+    margin-left: 20px;
   }
   .containerAboutCards {
     max-width: 300px;
@@ -840,6 +841,96 @@ pre code {
   }
   .containerCanSat {
     max-width: 1300px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1500px;
+  }
+  .container#About {
+    max-width: 1300px;
+  }
+  .containerAboutCards {
+    max-width: 1500px;
+  }
+  .containerAboutSubtitle {
+    max-width: 1500px;
+  }
+  .containerModal {
+    max-width: 1500px;
+  }
+  .containerSponsorCards {
+    max-width: 1500px;
+  }
+  .containerTopContent {
+    max-width: 1500px;
+  }
+  .containerCataBalloons {
+    max-width: 1500px;
+  }
+  .containerCanSat {
+    max-width: 1500px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1900px;
+  }
+  .container#About {
+    max-width: 1790px;
+  }
+  .containerAboutCards {
+    max-width: 1900px;
+  }
+  .containerAboutSubtitle {
+    max-width: 1900px;
+  }
+  .containerModal {
+    max-width: 1900px;
+  }
+  .containerSponsorCards {
+    max-width: 1900px;
+  }
+  .containerTopContent {
+    max-width: 1790px;
+  }
+  .containerCataBalloons {
+    max-width: 1900px;
+  }
+  .containerCanSat {
+    max-width: 1750px;
+  }
+}
+
+@media (min-width: 1950px) {
+  .container {
+    max-width: 2000px;
+  }
+  .container#About {
+    max-width: 2000px;
+  }
+  .containerAboutCards {
+    max-width: 2000px;
+  }
+  .containerAboutSubtitle {
+    max-width: 2000px;
+  }
+  .containerModal {
+    max-width: 2000px;
+  }
+  .containerSponsorCards {
+    max-width: 2000px;
+  }
+  .containerTopContent {
+    max-width: 2000px;
+  }
+  .containerCataBalloons {
+    max-width: 2000px;
+  }
+  .containerCanSat {
+    max-width: 2000px;
   }
 }
 
@@ -3930,7 +4021,7 @@ input[type="button"].btn-block {
   display: none;
   float: left;
   min-width: 10rem;
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #212529;
@@ -5642,15 +5733,15 @@ input[type="button"].btn-block {
 } */
 
 .cardAbout#Left {
-  width: 250px;
+  width: 300px;
   height: 430px;
-  margin-left: 80px;
+  margin-left: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
 
 .cardAbout#Middle {
-  width: 250px;
+  width: 300px;
   height: 430px;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -5658,9 +5749,9 @@ input[type="button"].btn-block {
 }
 
 .cardAbout#Right {
-  width: 250px;
+  width: 300px;
   height: 430px;
-  margin-right: 80px;
+  margin-right: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
@@ -5668,7 +5759,7 @@ input[type="button"].btn-block {
 .cardSponsor#Left {
   width: 500px;
   height: 547px;
-  margin-left: 80px;
+  margin-left: 300px;
   margin-right: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
@@ -5677,7 +5768,7 @@ input[type="button"].btn-block {
 .cardSponsor#Right {
   width: 500px;
   height: 547px;
-  margin-right: 80px;
+  margin-right: 300px;
   margin-left: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
@@ -5726,6 +5817,360 @@ input[type="button"].btn-block {
 
 .spacerVertical {
   height: 40px;
+}
+
+@media only screen and (min-width: 320px) {
+  .cardAbout#Left {
+    max-width: 300px;
+    margin-left: 0px;
+  }
+  .cardAbout#Middle {
+    max-width: 300px;
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+  .cardAbout#Right {
+    max-width: 300px;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  .cardSponsor#Left {
+    max-width: 270px;
+    height: 400px;
+    margin-left: 0px;
+  }
+  .cardSponsor#Right {
+    max-width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  .team_member {
+    max-width: 300px;
+  }
+  .team_member-image {
+    max-width: 300px;
+  }
+  .sponsor {
+    max-width: 300px;
+  }
+  .sponsor-image {
+    max-width: 300px;
+    width: 250px;
+    height: auto;
+    left: 10px;
+  }
+  .sponsor-image-NCGrant {
+    max-width: 300px;
+    width: 300px;
+    height: auto;
+  }
+  .spacerVertical {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .cardAbout#Left {
+    max-width: 300px;
+    margin-left: 100px;
+  }
+  .cardAbout#Middle {
+    max-width: 300px;
+    margin-left: 100px;
+    margin-top: 25px;
+  }
+  .cardAbout#Right {
+    max-width: 300px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  .cardSponsor#Left {
+    max-width: 500px;
+    margin-left: auto;
+  }
+  .cardSponsor#Right {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  .team_member {
+    max-width: 540px;
+  }
+  .team_member-image {
+    max-width: 540px;
+  }
+  .sponsor {
+    max-width: 540px;
+  }
+  .sponsor-image {
+    max-width: 540px;
+  }
+  .sponsor-image-NCGrant {
+    max-width: 540px;
+  }
+  .spacerVertical {
+    max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cardAbout#Left {
+    max-width: 300px;
+    margin-left: auto;
+  }
+  .cardAbout#Middle {
+    max-width: 300px;
+    margin-right: auto;
+  }
+  .cardAbout#Right {
+    max-width: 300px;
+    margin-left: 30px;
+    margin-top: 25px;
+  }
+  .cardSponsor#Left {
+    max-width: 500px;
+    margin-left: auto;
+  }
+  .cardSponsor#Right {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  .team_member {
+    max-width: 720px;
+  }
+  .team_member-image {
+    max-width: 720px;
+  }
+  .sponsor {
+    max-width: 720px;
+  }
+  .sponsor-image {
+    max-width: 720px;
+  }
+  .sponsor-image-NCGrant {
+    max-width: 720px;
+  }
+  .spacerVertical {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .cardAbout#Left {
+    max-width: 300px;
+    margin-left: 50px;
+  }
+  .cardAbout#Middle {
+    max-width: 300px;
+    margin-right: 105px;
+  }
+  .cardAbout#Right {
+    max-width: 300px;
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+  .cardSponsor#Left {
+    max-width: 500px;
+    margin-left: 200px;
+  }
+  .cardSponsor#Right {
+    max-width: 500px;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  .team_member {
+    max-width: 960px;
+  }
+  .team_member-image {
+    max-width: 960px;
+  }
+  .sponsor {
+    max-width: 960px;
+  }
+  .sponsor-image {
+    max-width: 960px;
+  }
+  .sponsor-image-NCGrant {
+    max-width: 960px;
+  }
+  .spacerVertical {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .cardAbout#Left {
+    max-width: 300px;
+    margin-left: 50px;
+  }
+  .cardAbout#Middle {
+    max-width: 300px;
+  }
+  .cardAbout#Right {
+    max-width: 300px;
+    margin-right: 50px;
+  }
+  .cardSponsor#Left {
+    max-width: 500px;
+    margin-left: 50px;
+  }
+  .cardSponsor#Right {
+    max-width: 500px;
+    margin-right: 50px;
+  }
+  .team_member {
+    max-width: 1300px;
+  }
+  .team_member-image {
+    max-width: 1300px;
+  }
+  .sponsor {
+    max-width: 1300px;
+  }
+  .sponsor-image {
+    max-width: 1300px;
+  }
+  .sponsor-image-NCGrant {
+    max-width: 1300px;
+  }
+  .spacerVertical {
+    max-width: 1300px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .cardAbout#Left {
+    max-width: 300px;
+    margin-left: 100px;
+  }
+  .cardAbout#Middle {
+    max-width: 300px;
+  }
+  .cardAbout#Right {
+    max-width: 300px;
+    margin-right: 100px;
+  }
+  .cardSponsor#Left {
+    max-width: 500px;
+    margin-left: 100px;
+  }
+  .cardSponsor#Right {
+    max-width: 500px;
+    margin-right: 100px;
+  }
+  .team_member {
+    max-width: 1500px;
+  }
+  .team_member-image {
+    max-width: 1500px;
+  }
+  .sponsor {
+    max-width: 1500px;
+  }
+  .sponsor-image {
+    max-width: 1500px;
+  }
+  .sponsor-image-NCGrant {
+    max-width: 1500px;
+  }
+  .spacerVertical {
+    max-width: 1500px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .cardAbout#Left {
+    max-width: 300px;
+    margin-left: 200px;
+    margin-right: auto;
+  }
+  .cardAbout#Middle {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .cardAbout#Right {
+    max-width: 300px;
+    margin-right: 200px;
+    margin-left: auto;
+    margin-top: 0px;
+  }
+  .cardSponsor#Left {
+    max-width: 500px;
+    height: 547px;
+    margin-left: auto;
+  }
+  .cardSponsor#Right {
+    max-width: 500px;
+  }
+  .team_member {
+    max-width: 1900px;
+  }
+  .team_member-image {
+    max-width: 1900px;
+  }
+  .sponsor {
+    max-width: 1900px;
+  }
+  .sponsor-image {
+    max-width: 500px;
+    height: 400px;
+    width: auto;
+    left: 50px;
+  }
+  .sponsor-image-NCGrant {
+    max-width: 500px;
+    height: 400px;
+    width: auto;
+    left: -5px;
+  }
+  .spacerVertical {
+    max-width: 1900px;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .cardAbout#Left {
+    max-width: 2000px;
+  }
+  .cardAbout#Middle {
+    max-width: 2000px;
+  }
+  .cardAbout#Right {
+    max-width: 2000px;
+  }
+  .cardSponsor#Left {
+    max-width: 2000px;
+  }
+  .cardSponsor#Right {
+    max-width: 2000px;
+  }
+  .team_member {
+    max-width: 2000px;
+  }
+  .team_member-image {
+    max-width: 2000px;
+  }
+  .sponsor {
+    max-width: 2000px;
+  }
+  .sponsor-image {
+    max-width: 2000px;
+  }
+  .sponsor-image-NCGrant {
+    max-width: 2000px;
+  }
+  .spacerVertical {
+    max-width: 2000px;
+  }
 }
 
 .card {
@@ -7066,14 +7511,6 @@ a.close.disabled {
   margin-left: -15px;
 }
 
-@media (min-width: 1500px) {
-.modalLayout {
-  width: 50%;
-  height: 100%;
-  padding-left: 20px;
-}
-}
-
 .columnModal {
   float: left;
   width: 33.3%;
@@ -7081,6 +7518,13 @@ a.close.disabled {
   max-height: 450px;
   margin-bottom: 16px;
   padding: 0 0;
+}
+
+.modalLayout {
+  width: 50%;
+  max-width: 475px;
+  height: 100%;
+  padding-left: 20px;
 }
 
 .modalProfileImg {
@@ -7127,7 +7571,7 @@ img.imageSponsor {
   display: block;
   /*width: 80%;
   max-width: 700px;*/
-  height: 150px;
+  height: 100%;
   padding: 10px 0;
   cursor: default;
 }
@@ -7152,7 +7596,7 @@ img.imageSponsor {
 .captionSubtitle {
   display: block;
   width: 100%;
-  height: 50px;
+  height: 110px;
   padding: 10px 0;
   cursor: default;
 
@@ -7189,6 +7633,702 @@ p.captionDescription {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) {
+  .modalLayout {
+    width: 50%;
+    max-width: 475px;
+    height: 100%;
+    padding-left: 20px;
+  }
+  .modalProfileImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  .modalSponsorImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  img.imageProfile {
+    width: 100%;
+    height: 100%;
+    scale: 0.95;
+  }
+  img.imageSponsor {
+    position: fixed;
+    width: auto;
+    height: 100%;
+    scale: 0.5;
+    left: 160px;
+    top: 10px;
+  }
+  .modalCaption {
+    margin-left: 10px;
+    display: block;
+    height: 100%;
+    padding: 10px 0;
+    cursor: default;
+  }
+  .captionTitle {
+    display: block;
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .captionSubtitle {
+    display: block;
+    width: 100%;
+    height: 110px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .captionDescription {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    cursor: default;
+  }
+  p.captionDescription {
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .closeModalBtn {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .closeModalBtn:hover,
+  .closeModalBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .modalLayout {
+    width: 50%;
+    max-width: 475px;
+    height: 100%;
+    padding-left: 20px;
+  }
+  .modalProfileImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  .modalSponsorImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  img.imageProfile {
+    width: 100%;
+    height: 100%;
+    scale: 0.95;
+  }
+  img.imageSponsor {
+    position: fixed;
+    width: auto;
+    height: 100%;
+    scale: 0.5;
+    left: 160px;
+    top: 10px;
+  }
+  .modalCaption {
+    margin-left: 10px;
+    display: block;
+    height: 100%;
+    padding: 10px 0;
+    cursor: default;
+  }
+  .captionTitle {
+    display: block;
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .captionSubtitle {
+    display: block;
+    width: 100%;
+    height: 110px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .captionDescription {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    cursor: default;
+  }
+  p.captionDescription {
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .closeModalBtn {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .closeModalBtn:hover,
+  .closeModalBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .modalLayout {
+    width: 50%;
+    max-width: 475px;
+    height: 100%;
+    padding-left: 20px;
+  }
+  .modalProfileImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  .modalSponsorImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  img.imageProfile {
+    width: 100%;
+    height: 100%;
+    scale: 0.95;
+  }
+  img.imageSponsor {
+    position: fixed;
+    width: auto;
+    height: 100%;
+    scale: 0.5;
+    left: 160px;
+    top: 10px;
+  }
+  .modalCaption {
+    margin-left: 10px;
+    display: block;
+    height: 100%;
+    padding: 10px 0;
+    cursor: default;
+  }
+  .captionTitle {
+    display: block;
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .captionSubtitle {
+    display: block;
+    width: 100%;
+    height: 110px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .captionDescription {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    cursor: default;
+  }
+  p.captionDescription {
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .closeModalBtn {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .closeModalBtn:hover,
+  .closeModalBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .modalLayout {
+    width: 50%;
+    max-width: 475px;
+    height: 100%;
+    padding-left: 20px;
+  }
+  .modalProfileImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  .modalSponsorImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  img.imageProfile {
+    width: 100%;
+    height: 100%;
+    scale: 0.95;
+  }
+  img.imageSponsor {
+    position: fixed;
+    width: auto;
+    height: 100%;
+    scale: 0.5;
+    left: 160px;
+    top: 10px;
+  }
+  .modalCaption {
+    margin-left: 10px;
+    display: block;
+    height: 100%;
+    padding: 10px 0;
+    cursor: default;
+  }
+  .captionTitle {
+    display: block;
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .captionSubtitle {
+    display: block;
+    width: 100%;
+    height: 110px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .captionDescription {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    cursor: default;
+  }
+  p.captionDescription {
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .closeModalBtn {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .closeModalBtn:hover,
+  .closeModalBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .modalLayout {
+    width: 50%;
+    max-width: 475px;
+    height: 100%;
+    padding-left: 20px;
+  }
+  .modalProfileImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  .modalSponsorImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  img.imageProfile {
+    width: 100%;
+    height: 100%;
+    scale: 0.95;
+  }
+  img.imageSponsor {
+    position: fixed;
+    width: auto;
+    height: 100%;
+    scale: 0.5;
+    left: 160px;
+    top: 10px;
+  }
+  .modalCaption {
+    margin-left: 10px;
+    display: block;
+    height: 100%;
+    padding: 10px 0;
+    cursor: default;
+  }
+  .captionTitle {
+    display: block;
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .captionSubtitle {
+    display: block;
+    width: 100%;
+    height: 110px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .captionDescription {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    cursor: default;
+  }
+  p.captionDescription {
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .closeModalBtn {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .closeModalBtn:hover,
+  .closeModalBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .modalLayout {
+    width: 50%;
+    max-width: 475px;
+    height: 100%;
+    padding-left: 20px;
+  }
+  .modalProfileImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  .modalSponsorImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  img.imageProfile {
+    width: 100%;
+    height: 100%;
+    scale: 0.95;
+  }
+  img.imageSponsor {
+    position: fixed;
+    width: auto;
+    height: 100%;
+    scale: 0.5;
+    left: 160px;
+    top: 10px;
+  }
+  .modalCaption {
+    margin-left: 10px;
+    display: block;
+    height: 100%;
+    padding: 10px 0;
+    cursor: default;
+  }
+  .captionTitle {
+    display: block;
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .captionSubtitle {
+    display: block;
+    width: 100%;
+    height: 110px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .captionDescription {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    cursor: default;
+  }
+  p.captionDescription {
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .closeModalBtn {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .closeModalBtn:hover,
+  .closeModalBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .modalLayout {
+    width: 50%;
+    max-width: 475px;
+    height: 100%;
+    padding-left: 20px;
+  }
+  .modalProfileImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  .modalSponsorImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  img.imageProfile {
+    width: 100%;
+    height: 100%;
+    scale: 0.95;
+  }
+  img.imageSponsor {
+    position: fixed;
+    width: auto;
+    height: 100%;
+    scale: 0.5;
+    left: 160px;
+    top: 10px;
+  }
+  .modalCaption {
+    margin-left: 10px;
+    display: block;
+    height: 100%;
+    padding: 10px 0;
+    cursor: default;
+  }
+  .captionTitle {
+    display: block;
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .captionSubtitle {
+    display: block;
+    width: 100%;
+    height: 110px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .captionDescription {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    cursor: default;
+  }
+  p.captionDescription {
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .closeModalBtn {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .closeModalBtn:hover,
+  .closeModalBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .modalLayout {
+    width: 50%;
+    max-width: 475px;
+    height: 100%;
+    padding-left: 20px;
+  }
+  .modalProfileImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  .modalSponsorImg {
+    position: fixed;
+    float: left;
+    width: 429px;
+    height: 600px;
+  }
+  img.imageProfile {
+    width: 100%;
+    height: 100%;
+    scale: 0.95;
+  }
+  img.imageSponsor {
+    position: fixed;
+    width: auto;
+    height: 100%;
+    scale: 0.5;
+    left: 160px;
+    top: 10px;
+  }
+  .modalCaption {
+    margin-left: 10px;
+    display: block;
+    height: 100%;
+    padding: 10px 0;
+    cursor: default;
+  }
+  .captionTitle {
+    display: block;
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .captionSubtitle {
+    display: block;
+    width: 100%;
+    height: 110px;
+    padding: 10px 0;
+    cursor: default;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .captionDescription {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    cursor: default;
+  }
+  p.captionDescription {
+    font-size: 14px;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  .closeModalBtn {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #ccc;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .closeModalBtn:hover,
+  .closeModalBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 .tooltip {
@@ -7476,6 +8616,7 @@ p.captionDescription {
   position: relative;
   width: 100%;
   overflow: hidden;
+  padding-top: 50px;
 }
 
 .carousel-inner::after {
@@ -9860,6 +11001,12 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+}
+
+.mb-5#contact,
+.my-5#contact {
+  margin-bottom: 3rem !important;
+  color: #ffffff;
 }
 
 .ml-5,
@@ -12607,7 +13754,9 @@ p.pageDescription {
 }
 
 .navbar-toggler {
-  position: relative;
+  position: absolute;
+  right: 30px;
+  top: 30px;
   border: none;
   outline: none !important;
   height: 30px;
@@ -12766,7 +13915,7 @@ pre .code {
 }
 
 .footer a, .footer p {
-  color: #343a40;
+  color: #ffffff;
   padding: 4px 0;
   display: inline-block;
   margin: 0;
@@ -13028,7 +14177,7 @@ pre .code {
           flex-grow: 1;
   width: 100%;
   text-align: left;
-  padding: 20px 0;
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -13129,14 +14278,14 @@ pre .code {
 }
 
 .section#About {
-  padding-top: 75px;
+  padding-top: 30px;
   padding-right: 10px;
   padding-bottom: 20px;
   padding-left: 10px;
 }
 
 .sectionTopContent {
-  padding: 50px 10px 20px;
+  padding: 50px 10px 10px;
   margin-left: 50px;
   margin-right: 50px;
   background-color: #ccf5ff;
@@ -13157,7 +14306,7 @@ pre .code {
 }
 
 .sectionCanSat {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 10px;
   padding-bottom: 20px;
   padding-right: 10px;
@@ -13168,7 +14317,8 @@ pre .code {
 }
 
 .section#contact {
-  padding: 173px 10px;
+  padding: 10px 10px;
+  background-color: #425262;
 }
 
 /* .section:nth-child(odd) {
