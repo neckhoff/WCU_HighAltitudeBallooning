@@ -5804,6 +5804,20 @@ input[type="button"].btn-block {
   background-color: #ffffff;
 }
 
+.mentor {
+  height: 265px;
+  margin-bottom: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.mentor-image {
+  height: 265px;
+  background-size: 175px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .team_member {
   height: 265px;
   margin-bottom: 30px;
