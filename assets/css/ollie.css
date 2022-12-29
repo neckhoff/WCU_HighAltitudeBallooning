@@ -5901,11 +5901,18 @@ input[type="button"].btn-block {
 
 .CanSat_imageSlot {
   height: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+.CanSat_imageSlot2 {
+  height: 200px;
+  float: right;
+  padding-right: 10px;
 }
 
 .CanSat_image {
   height: 200px;
-  float: left;
 }
 
 @media only screen and (min-width: 320px) {
