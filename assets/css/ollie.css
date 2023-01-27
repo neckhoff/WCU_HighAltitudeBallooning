@@ -7690,7 +7690,6 @@ img.imageSponsor {
   height: 100%;
   padding: 10px 0;
   cursor: default;
-  overflow: scroll;
 }
 
 .captionTitle {
@@ -7713,7 +7712,7 @@ img.imageSponsor {
 .captionSubtitle {
   display: block;
   width: 100%;
-  height: 110px;
+  height: auto;
   padding: 10px 0;
   cursor: default;
 
@@ -7725,7 +7724,7 @@ img.imageSponsor {
 .captionDescription {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 10px 0;
   cursor: default;
 }
@@ -7733,6 +7732,7 @@ img.imageSponsor {
 p.captionDescription {
   font-size: 14px;
   font-weight: 100;
+  height: auto;
   color: #ffffff;
 }
 
@@ -7804,7 +7804,7 @@ p.captionDescription {
   .captionSubtitle {
     display: block;
     width: 100%;
-    height: 110px;
+    /*height: 110px;*/
     padding: 10px 0;
     cursor: default;
     font-size: 20px;
@@ -7891,7 +7891,7 @@ p.captionDescription {
   .captionSubtitle {
     display: block;
     width: 100%;
-    height: 110px;
+    /*height: 110px;*/
     padding: 10px 0;
     cursor: default;
     font-size: 20px;
@@ -7978,7 +7978,7 @@ p.captionDescription {
   .captionSubtitle {
     display: block;
     width: 100%;
-    height: 110px;
+    /*height: 110px;*/
     padding: 10px 0;
     cursor: default;
     font-size: 20px;
@@ -8065,7 +8065,7 @@ p.captionDescription {
   .captionSubtitle {
     display: block;
     width: 100%;
-    height: 110px;
+    /*height: 110px;*/
     padding: 10px 0;
     cursor: default;
     font-size: 20px;
@@ -8152,7 +8152,7 @@ p.captionDescription {
   .captionSubtitle {
     display: block;
     width: 100%;
-    height: 110px;
+    /*height: 110px;*/
     padding: 10px 0;
     cursor: default;
     font-size: 20px;
@@ -8239,7 +8239,7 @@ p.captionDescription {
   .captionSubtitle {
     display: block;
     width: 100%;
-    height: 110px;
+    /*height: 110px;*/
     padding: 10px 0;
     cursor: default;
     font-size: 20px;
@@ -8249,13 +8249,14 @@ p.captionDescription {
   .captionDescription {
     display: block;
     width: 100%;
-    height: 50px;
+    height: auto;
     padding: 10px 0;
     cursor: default;
   }
   p.captionDescription {
     font-size: 14px;
     font-weight: 100;
+    height: auto;
     color: #ffffff;
   }
   .closeModalBtn {
@@ -8326,7 +8327,7 @@ p.captionDescription {
   .captionSubtitle {
     display: block;
     width: 100%;
-    height: 110px;
+    /*height: 110px;*/
     padding: 10px 0;
     cursor: default;
     font-size: 20px;
@@ -8413,7 +8414,7 @@ p.captionDescription {
   .captionSubtitle {
     display: block;
     width: 100%;
-    height: 110px;
+    /*height: 110px;*/
     padding: 10px 0;
     cursor: default;
     font-size: 20px;
@@ -14267,7 +14268,7 @@ pre .code {
   opacity: 0.9;
 }
 
-.header-QB2 .overlay-Capstone2022-23 {
+.header-Capstone2022-23 .overlay-Capstone2022-23 {
   position: absolute;
   top: 0;
   left: 0;
