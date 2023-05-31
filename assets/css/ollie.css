@@ -660,6 +660,16 @@ pre code {
   margin-left: auto;
 }
 
+.containerSponsorCards-WCU {
+  width: 100%;
+  padding-top: 140px;
+  /*padding-top: 30px;*/
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container::after, .row::after {
   content: "";
   clear: both;
@@ -5896,7 +5906,7 @@ input[type="button"].btn-block {
 }
 
 .sponsor-image-WCU {
-  height: 400px;
+  height: 200px;
   position: relative;
   left: 50px;
   /* background-size: 400px;
@@ -6227,9 +6237,9 @@ input[type="button"].btn-block {
     max-width: 400px;
     position: relative;
     width: auto;
-    height: 400px;
+    height: 200px;
     left: 80px;
-    top: 10px;
+    top: 80px;
   }
   .spacerVertical {
     max-width: 1500px;
@@ -6284,7 +6294,7 @@ input[type="button"].btn-block {
   }
   .sponsor-image-WCU {
     max-width: 500px;
-    height: 400px;
+    height: 200px;
     width: auto;
     left: 12px;
   }
