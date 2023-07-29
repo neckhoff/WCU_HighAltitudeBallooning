@@ -644,6 +644,15 @@ pre code {
   border-bottom: 2px solid black;
 }
 
+.containerAboutSubtitle2 {
+  width: 99%;
+  padding-right: 50px;
+  padding-left: 35px;
+  margin-right: auto;
+  margin-left: 10px;
+  border-bottom: 2px solid black;
+}
+
 .containerModal {
   width: 100%;
   height: 100%;
@@ -5816,10 +5825,27 @@ input[type="button"].btn-block {
   background-color: #ffffff;
 }
 
+.cardAbout#Left2 {
+  width: 300px;
+  height: 430px;
+  margin-left: 465px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
 .cardAbout#Middle {
   width: 300px;
   height: 430px;
   margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.cardAbout#Middle2 {
+  width: 300px;
+  height: 430px;
+  margin-right: auto;
+  margin-left: 225px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
