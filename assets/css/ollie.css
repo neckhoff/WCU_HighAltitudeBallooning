@@ -644,6 +644,15 @@ pre code {
   border-bottom: 2px solid black;
 }
 
+.containerAboutSubtitle2 {
+  width: 99%;
+  padding-right: 50px;
+  padding-left: 35px;
+  margin-right: auto;
+  margin-left: 10px;
+  border-bottom: 2px solid black;
+}
+
 .containerModal {
   width: 100%;
   height: 100%;
@@ -654,6 +663,16 @@ pre code {
 .containerSponsorCards {
   width: 100%;
   padding-top: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.containerSponsorCards-WCU {
+  width: 100%;
+  padding-top: 140px;
+  /*padding-top: 30px;*/
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -5806,10 +5825,27 @@ input[type="button"].btn-block {
   background-color: #ffffff;
 }
 
+.cardAbout#Left2 {
+  width: 300px;
+  height: 430px;
+  margin-left: 465px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
 .cardAbout#Middle {
   width: 300px;
   height: 430px;
   margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.cardAbout#Middle2 {
+  width: 300px;
+  height: 430px;
+  margin-right: auto;
+  margin-left: 225px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
@@ -5895,6 +5931,15 @@ input[type="button"].btn-block {
   background-repeat: no-repeat; */
 }
 
+.sponsor-image-WCU {
+  height: 200px;
+  position: relative;
+  left: 50px;
+  /* background-size: 400px;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
 .spacerVertical {
   height: 40px;
 }
@@ -5912,6 +5957,38 @@ input[type="button"].btn-block {
 }
 
 .CanSat_image {
+  height: 200px;
+}
+
+.Capstone22-23_imageSlot {
+  height: 150px;
+  float: left;
+  padding-right: 10px;
+}
+
+.Capstone22-23_imageSlot2 {
+  height: 200px;
+  float: right;
+  padding-right: 10px;
+}
+
+.Capstone22-23_imageSlot3 {
+  height: 150px;
+  float: left;
+  padding-right: 10px;
+}
+
+.Capstone22-23_imageSlot4 {
+  height: 200px;
+  float: right;
+  padding-right: 10px;
+}
+
+.Capstone22-23_image {
+  height: 150px;
+}
+
+.Capstone22-23_image4 {
   height: 200px;
 }
 
@@ -5963,6 +6040,11 @@ input[type="button"].btn-block {
     width: 300px;
     height: auto;
   }
+  .sponsor-image-WCU {
+    max-width: 300px;
+    width: 300px;
+    height: auto;
+  }
   .spacerVertical {
     max-width: 300px;
   }
@@ -6009,6 +6091,9 @@ input[type="button"].btn-block {
   .sponsor-image-NCGrant {
     max-width: 540px;
   }
+  .sponsor-image-WCU {
+    max-width: 540px;
+  }
   .spacerVertical {
     max-width: 540px;
   }
@@ -6051,6 +6136,9 @@ input[type="button"].btn-block {
     max-width: 720px;
   }
   .sponsor-image-NCGrant {
+    max-width: 720px;
+  }
+  .sponsor-image-WCU {
     max-width: 720px;
   }
   .spacerVertical {
@@ -6097,6 +6185,9 @@ input[type="button"].btn-block {
   .sponsor-image-NCGrant {
     max-width: 960px;
   }
+  .sponsor-image-WCU {
+    max-width: 960px;
+  }
   .spacerVertical {
     max-width: 960px;
   }
@@ -6135,6 +6226,9 @@ input[type="button"].btn-block {
     max-width: 1300px;
   }
   .sponsor-image-NCGrant {
+    max-width: 1300px;
+  }
+  .sponsor-image-WCU {
     max-width: 1300px;
   }
   .spacerVertical {
@@ -6197,6 +6291,14 @@ input[type="button"].btn-block {
     left: 80px;
     top: 10px;
   }
+  .sponsor-image-WCU {
+    max-width: 400px;
+    position: relative;
+    width: auto;
+    height: 200px;
+    left: 80px;
+    top: 80px;
+  }
   .spacerVertical {
     max-width: 1500px;
   }
@@ -6248,6 +6350,12 @@ input[type="button"].btn-block {
     width: auto;
     left: -5px;
   }
+  .sponsor-image-WCU {
+    max-width: 500px;
+    height: 200px;
+    width: auto;
+    left: 12px;
+  }
   .spacerVertical {
     max-width: 1900px;
   }
@@ -6282,6 +6390,9 @@ input[type="button"].btn-block {
     max-width: 2000px;
   }
   .sponsor-image-NCGrant {
+    max-width: 2000px;
+  }
+  .sponsor-image-WCU {
     max-width: 2000px;
   }
   .spacerVertical {
@@ -7598,7 +7709,7 @@ a.close.disabled {
   display: block;
   width: 80%;
   max-width: 950px;
-  height: 200%;
+  height: 245%;
   cursor: default;
 }
 
